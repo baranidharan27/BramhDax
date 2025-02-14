@@ -6,7 +6,7 @@ This repository implements the **RAG (Retrieval Augmented Generation)** pipeline
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/IBM-Folder.git
+    git clone https://github.com/baranidharan27/IBM.git
     ```
 
 
@@ -20,9 +20,4 @@ This repository implements the **RAG (Retrieval Augmented Generation)** pipeline
 
 3. **Running the RAG pipeline**:
     - Run the notebook `try_rag.ipynb` to see the RAG implementation in action.
-    - Ensure that the required documents are available in the `IBM` folder.
 
-## Example
-
-```bash
-python try_rag.ipynb
