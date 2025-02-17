@@ -16,3 +16,13 @@
 2025-02-17 16:04:27,693 - INFO - Finished converting document 2502.10322v1.pdf in 14.38 sec.
 2025-02-17 16:04:27,693 - INFO - Parsed 2502.10322v1.pdf in 14.38 seconds.
 2025-02-17 16:04:28,255 - INFO - Finished processing 2502.10322v1.pdf. Extracted 6 images and 4 tables.
+2025-02-17 16:51:07,599 - INFO - Processing paper.pdf...
+2025-02-17 16:51:07,617 - INFO - Going to convert document batch...
+2025-02-17 16:51:07,866 - INFO - Accelerator device: 'cuda:0'
+2025-02-17 16:51:09,700 - INFO - Accelerator device: 'cuda:0'
+2025-02-17 16:51:11,010 - INFO - Accelerator device: 'cuda:0'
+2025-02-17 16:51:11,295 - INFO - Processing document paper.pdf
+2025-02-17 16:51:29,591 - INFO - Finished converting document paper.pdf in 21.99 sec.
+2025-02-17 16:51:29,592 - INFO - Parsed paper.pdf in 21.99 seconds.
+2025-02-17 16:51:49,985 - INFO - Final output saved to ./output/paper/final_output.txt
+2025-02-17 16:51:49,985 - INFO - Finished processing paper.pdf. Extracted 21 images.

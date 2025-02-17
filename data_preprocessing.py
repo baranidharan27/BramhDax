@@ -21,16 +21,18 @@ from IPython.display import display
 import pandas as pd
 import matplotlib.pyplot as plt
 import math
+#code part for this file
 import os
 import time
 import logging
 from pathlib import Path
-import pandas as pd
 from docling_core.types.doc import ImageRefMode, PictureItem, TableItem
 from docling.document_converter import DocumentConverter
 from docling.datamodel.pipeline_options import PdfPipelineOptions
 from docling.datamodel.base_models import InputFormat
 from docling.document_converter import PdfFormatOption
+from transformers import BlipProcessor, BlipForConditionalGeneration
+from PIL import Image
 
 # Constants
 IMAGE_RESOLUTION_SCALE = 2.0
@@ -39,6 +41,22 @@ LOG_FILE = "pipeline.log"
 
 # Configure logging
 logging.basicConfig(filename=LOG_FILE, level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+
+# Load pre-trained image captioning model
+processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
+model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
+
+def generate_image_description(image_path):
+    """Generate a description for the given image using a pre-trained model."""
+    try:
+        image = Image.open(image_path).convert("RGB")
+        inputs = processor(image, return_tensors="pt")
+        out = model.generate(**inputs)
+        description = processor.decode(out[0], skip_special_tokens=True)
+        return description
+    except Exception as e:
+        logging.error(f"Error generating description for {image_path}: {e}")
+        return "No description available"
 
 def parse_pdf(pdf_path):
     """Parse the PDF and return the conversion result."""
@@ -75,52 +93,18 @@ def extract_images(conv_res, output_dir):
             image_number += 1
     return images_list
 
-def extract_tables(conv_res, output_dir):
-    """Extract tables and save them as images, CSVs, and HTMLs."""
-    os.makedirs(output_dir, exist_ok=True)
-    table_list = []
-    table_number = 1
+def generate_final_output(images, output_dir):
+    """Generate the final output text file with image descriptions."""
+    output_text = ""
+    for idx, (image_path, _) in enumerate(images, start=1):
+        description = generate_image_description(image_path)
+        output_text += f"<image_{idx}>\n"
+        output_text += f"{{image_{idx}_description: {description}}}\n\n"
 
-    for element, _level in conv_res.document.iterate_items():
-        if isinstance(element, TableItem):
-            # Save table as image
-            element_table_filename = os.path.join(output_dir, f"table_{table_number}.png")
-            with open(element_table_filename, "wb") as fp:
-                table_image = element.get_image(conv_res.document)
-                table_image.save(fp, "PNG")
-                table_list.append(table_image)
-
-            # Save table as CSV
-            table_df = element.export_to_dataframe()
-            element_table_filename = os.path.join(output_dir, f"table_{table_number}.csv")
-            table_df.to_csv(element_table_filename)
-
-            # Save table as HTML
-            table_html = element.export_to_html()
-            element_table_filename = os.path.join(output_dir, f"table_{table_number}.html")
-            with open(element_table_filename, "w") as fp:
-                fp.write(table_html)
-
-            table_number += 1
-    return table_list
-
-def generate_structured_output(images, tables, output_dir):
-    """Generate structured output with image-caption pairs and table references."""
-    structured_output_path = os.path.join(output_dir, "structured_output.txt")
-    with open(structured_output_path, "w") as f:
-        f.write("Structured Output\n")
-        f.write("================\n\n")
-        f.write("Images:\n")
-        for idx, (image_path, caption) in enumerate(images, start=1):
-            f.write(f"Image {idx}:\n")
-            f.write(f"  Path: {image_path}\n")
-            f.write(f"  Caption: {caption}\n\n")
-        f.write("\nTables:\n")
-        for idx, table_image in enumerate(tables, start=1):
-            f.write(f"Table {idx}:\n")
-            f.write(f"  Image: {os.path.join(output_dir, f'table_{idx}.png')}\n")
-            f.write(f"  CSV: {os.path.join(output_dir, f'table_{idx}.csv')}\n")
-            f.write(f"  HTML: {os.path.join(output_dir, f'table_{idx}.html')}\n\n")
+    output_file_path = os.path.join(output_dir, "final_output.txt")
+    with open(output_file_path, "w") as f:
+        f.write(output_text)
+    logging.info(f"Final output saved to {output_file_path}")
 
 def process_pdf(pdf_path, output_base_dir):
     """Process a single PDF file."""
@@ -131,18 +115,14 @@ def process_pdf(pdf_path, output_base_dir):
     logging.info(f"Processing {pdf_path.name}...")
     conv_res = parse_pdf(pdf_path)
 
-    # Extract images and captions
+    # Extract images
     images_dir = os.path.join(output_dir, "images")
     images = extract_images(conv_res, images_dir)
 
-    # Extract tables
-    tables_dir = os.path.join(output_dir, "tables")
-    tables = extract_tables(conv_res, tables_dir)
+    # Generate final output with image descriptions
+    generate_final_output(images, output_dir)
 
-    # Generate structured output
-    generate_structured_output(images, tables, output_dir)
-
-    logging.info(f"Finished processing {pdf_path.name}. Extracted {len(images)} images and {len(tables)} tables.")
+    logging.info(f"Finished processing {pdf_path.name}. Extracted {len(images)} images.")
 
 def main(pdf_paths, output_base_dir):
     """Process multiple PDF files."""
@@ -154,7 +134,7 @@ def main(pdf_paths, output_base_dir):
 
 if __name__ == "__main__":
     # Define input PDF paths (can be a single file or a list of files)
-    pdf_paths = [Path("2502.10322v1.pdf")]  # Add more PDFs as needed
+    pdf_paths = [Path("paper.pdf")]  # Add more PDFs as needed
 
     # Run the pipeline
     main(pdf_paths, OUTPUT_BASE_DIR)
