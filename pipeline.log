@@ -1,0 +1,18 @@
+2025-02-17 15:52:17,968 - INFO - Processing paper.pdf...
+2025-02-17 15:52:17,986 - INFO - Going to convert document batch...
+2025-02-17 15:52:18,256 - INFO - Accelerator device: 'cuda:0'
+2025-02-17 15:52:20,114 - INFO - Accelerator device: 'cuda:0'
+2025-02-17 15:52:21,665 - INFO - Accelerator device: 'cuda:0'
+2025-02-17 15:52:21,970 - INFO - Processing document paper.pdf
+2025-02-17 15:52:40,153 - INFO - Finished converting document paper.pdf in 22.18 sec.
+2025-02-17 15:52:40,154 - INFO - Parsed paper.pdf in 22.18 seconds.
+2025-02-17 15:52:40,635 - INFO - Finished processing paper.pdf. Extracted 21 images and 1 tables.
+2025-02-17 16:04:13,313 - INFO - Processing 2502.10322v1.pdf...
+2025-02-17 16:04:13,335 - INFO - Going to convert document batch...
+2025-02-17 16:04:13,601 - INFO - Accelerator device: 'cuda:0'
+2025-02-17 16:04:15,470 - INFO - Accelerator device: 'cuda:0'
+2025-02-17 16:04:17,004 - INFO - Accelerator device: 'cuda:0'
+2025-02-17 16:04:17,310 - INFO - Processing document 2502.10322v1.pdf
+2025-02-17 16:04:27,693 - INFO - Finished converting document 2502.10322v1.pdf in 14.38 sec.
+2025-02-17 16:04:27,693 - INFO - Parsed 2502.10322v1.pdf in 14.38 seconds.
+2025-02-17 16:04:28,255 - INFO - Finished processing 2502.10322v1.pdf. Extracted 6 images and 4 tables.

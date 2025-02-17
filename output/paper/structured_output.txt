@@ -1,0 +1,95 @@
+Structured Output
+================
+
+Images:
+Image 1:
+  Path: ./output/paper/images/image_1.png
+  Caption: No caption
+
+Image 2:
+  Path: ./output/paper/images/image_2.png
+  Caption: No caption
+
+Image 3:
+  Path: ./output/paper/images/image_3.png
+  Caption: No caption
+
+Image 4:
+  Path: ./output/paper/images/image_4.png
+  Caption: No caption
+
+Image 5:
+  Path: ./output/paper/images/image_5.png
+  Caption: No caption
+
+Image 6:
+  Path: ./output/paper/images/image_6.png
+  Caption: No caption
+
+Image 7:
+  Path: ./output/paper/images/image_7.png
+  Caption: No caption
+
+Image 8:
+  Path: ./output/paper/images/image_8.png
+  Caption: No caption
+
+Image 9:
+  Path: ./output/paper/images/image_9.png
+  Caption: No caption
+
+Image 10:
+  Path: ./output/paper/images/image_10.png
+  Caption: No caption
+
+Image 11:
+  Path: ./output/paper/images/image_11.png
+  Caption: No caption
+
+Image 12:
+  Path: ./output/paper/images/image_12.png
+  Caption: No caption
+
+Image 13:
+  Path: ./output/paper/images/image_13.png
+  Caption: No caption
+
+Image 14:
+  Path: ./output/paper/images/image_14.png
+  Caption: No caption
+
+Image 15:
+  Path: ./output/paper/images/image_15.png
+  Caption: No caption
+
+Image 16:
+  Path: ./output/paper/images/image_16.png
+  Caption: No caption
+
+Image 17:
+  Path: ./output/paper/images/image_17.png
+  Caption: No caption
+
+Image 18:
+  Path: ./output/paper/images/image_18.png
+  Caption: No caption
+
+Image 19:
+  Path: ./output/paper/images/image_19.png
+  Caption: No caption
+
+Image 20:
+  Path: ./output/paper/images/image_20.png
+  Caption: No caption
+
+Image 21:
+  Path: ./output/paper/images/image_21.png
+  Caption: No caption
+
+
+Tables:
+Table 1:
+  Image: ./output/paper/table_1.png
+  CSV: ./output/paper/table_1.csv
+  HTML: ./output/paper/table_1.html
+
