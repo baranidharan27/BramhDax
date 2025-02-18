@@ -21,18 +21,26 @@ from IPython.display import display
 import pandas as pd
 import matplotlib.pyplot as plt
 import math
-#code part for this file
+
+# Import necessary libraries
 import os
 import time
 import logging
 from pathlib import Path
-from docling_core.types.doc import ImageRefMode, PictureItem, TableItem
-from docling.document_converter import DocumentConverter
-from docling.datamodel.pipeline_options import PdfPipelineOptions
-from docling.datamodel.base_models import InputFormat
-from docling.document_converter import PdfFormatOption
-from transformers import BlipProcessor, BlipForConditionalGeneration
 from PIL import Image
+from IPython.display import display
+import requests
+import pandas as pd
+import matplotlib.pyplot as plt
+import concurrent.futures
+from transformers import BlipProcessor, BlipForConditionalGeneration
+from docling.datamodel.base_models import FigureElement, InputFormat, Table
+from docling.backend.docling_parse_backend import DoclingParseDocumentBackend
+from docling.document_converter import DocumentConverter
+from docling.document_converter import PdfFormatOption
+from docling_core.types.doc import PictureItem
+from docling.datamodel.pipeline_options import PdfPipelineOptions
+import math
 
 # Constants
 IMAGE_RESOLUTION_SCALE = 2.0
@@ -42,17 +50,22 @@ LOG_FILE = "pipeline.log"
 # Configure logging
 logging.basicConfig(filename=LOG_FILE, level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-# Load pre-trained image captioning model
+# Load pre-trained BLIP model for image captioning
 processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
 model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
 
+# Helper functions
 def generate_image_description(image_path):
-    """Generate a description for the given image using a pre-trained model."""
+    """Generate a detailed description for the given image using BLIP model."""
     try:
         image = Image.open(image_path).convert("RGB")
         inputs = processor(image, return_tensors="pt")
+        
+        # Use the BLIP model to generate a description
         out = model.generate(**inputs)
         description = processor.decode(out[0], skip_special_tokens=True)
+        
+        logging.info(f"Generated description for {image_path}: {description}")
         return description
     except Exception as e:
         logging.error(f"Error generating description for {image_path}: {e}")
@@ -66,19 +79,25 @@ def parse_pdf(pdf_path):
     pipeline_options.generate_picture_images = True
 
     doc_converter = DocumentConverter(
-        format_options={
-            InputFormat.PDF: PdfFormatOption(pipeline_options=pipeline_options)
-        }
+        format_options={InputFormat.PDF: PdfFormatOption(pipeline_options=pipeline_options)}
     )
 
-    start_time = time.time()
-    conv_res = doc_converter.convert(pdf_path)
-    end_time = time.time() - start_time
-    logging.info(f"Parsed {pdf_path.name} in {end_time:.2f} seconds.")
-    return conv_res
+    try:
+        start_time = time.time()
+        conv_res = doc_converter.convert(pdf_path)
+        end_time = time.time() - start_time
+        logging.info(f"Parsed {pdf_path.name} in {end_time:.2f} seconds.")
+        return conv_res
+    except Exception as e:
+        logging.error(f"Error parsing PDF {pdf_path.name}: {e}")
+        return None
 
 def extract_images(conv_res, output_dir):
     """Extract images and save them to the specified directory."""
+    if not conv_res:
+        logging.error("No conversion result found, skipping image extraction.")
+        return []
+
     os.makedirs(output_dir, exist_ok=True)
     images_list = []
     image_number = 1
@@ -86,11 +105,14 @@ def extract_images(conv_res, output_dir):
     for element, _level in conv_res.document.iterate_items():
         if isinstance(element, PictureItem):
             element_image_filename = os.path.join(output_dir, f"image_{image_number}.png")
-            with open(element_image_filename, "wb") as fp:
-                image = element.get_image(conv_res.document)
-                image.save(fp, "PNG")
-            images_list.append((element_image_filename, element.caption if hasattr(element, 'caption') else "No caption"))
-            image_number += 1
+            try:
+                with open(element_image_filename, "wb") as fp:
+                    image = element.get_image(conv_res.document)
+                    image.save(fp, "PNG")
+                images_list.append((element_image_filename, element.caption if hasattr(element, 'caption') else "No caption"))
+                image_number += 1
+            except Exception as e:
+                logging.error(f"Error saving image {image_number}: {e}")
     return images_list
 
 def generate_final_output(images, output_dir):
@@ -102,9 +124,12 @@ def generate_final_output(images, output_dir):
         output_text += f"{{image_{idx}_description: {description}}}\n\n"
 
     output_file_path = os.path.join(output_dir, "final_output.txt")
-    with open(output_file_path, "w") as f:
-        f.write(output_text)
-    logging.info(f"Final output saved to {output_file_path}")
+    try:
+        with open(output_file_path, "w") as f:
+            f.write(output_text)
+        logging.info(f"Final output saved to {output_file_path}")
+    except Exception as e:
+        logging.error(f"Error saving final output text file: {e}")
 
 def process_pdf(pdf_path, output_base_dir):
     """Process a single PDF file."""
@@ -115,26 +140,32 @@ def process_pdf(pdf_path, output_base_dir):
     logging.info(f"Processing {pdf_path.name}...")
     conv_res = parse_pdf(pdf_path)
 
-    # Extract images
-    images_dir = os.path.join(output_dir, "images")
-    images = extract_images(conv_res, images_dir)
+    if conv_res:
+        # Extract images
+        images_dir = os.path.join(output_dir, "images")
+        images = extract_images(conv_res, images_dir)
 
-    # Generate final output with image descriptions
-    generate_final_output(images, output_dir)
+        # Generate final output with image descriptions
+        generate_final_output(images, output_dir)
 
-    logging.info(f"Finished processing {pdf_path.name}. Extracted {len(images)} images.")
+        logging.info(f"Finished processing {pdf_path.name}. Extracted {len(images)} images.")
+    else:
+        logging.error(f"Skipping {pdf_path.name} due to parsing error.")
 
-def main(pdf_paths, output_base_dir):
-    """Process multiple PDF files."""
-    for pdf_path in pdf_paths:
-        try:
-            process_pdf(pdf_path, output_base_dir)
-        except Exception as e:
-            logging.error(f"Error processing {pdf_path.name}: {e}")
+def process_pdf_batch(pdf_paths, output_base_dir):
+    """Process multiple PDF files in parallel."""
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        futures = [executor.submit(process_pdf, pdf_path, output_base_dir) for pdf_path in pdf_paths]
+        for future in concurrent.futures.as_completed(futures):
+            try:
+                future.result()  # Re-raises any exception caught inside the thread
+            except Exception as e:
+                logging.error(f"Error processing PDF in batch: {e}")
 
+# Main script
 if __name__ == "__main__":
     # Define input PDF paths (can be a single file or a list of files)
-    pdf_paths = [Path("paper.pdf")]  # Add more PDFs as needed
+    pdf_paths = [Path("paper.pdf"), Path("2502.10322v1.pdf")]  # Add more PDFs as needed
 
     # Run the pipeline
-    main(pdf_paths, OUTPUT_BASE_DIR)
+    process_pdf_batch(pdf_paths, OUTPUT_BASE_DIR)

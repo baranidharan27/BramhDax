@@ -1,28 +1,47 @@
-2025-02-17 15:52:17,968 - INFO - Processing paper.pdf...
-2025-02-17 15:52:17,986 - INFO - Going to convert document batch...
-2025-02-17 15:52:18,256 - INFO - Accelerator device: 'cuda:0'
-2025-02-17 15:52:20,114 - INFO - Accelerator device: 'cuda:0'
-2025-02-17 15:52:21,665 - INFO - Accelerator device: 'cuda:0'
-2025-02-17 15:52:21,970 - INFO - Processing document paper.pdf
-2025-02-17 15:52:40,153 - INFO - Finished converting document paper.pdf in 22.18 sec.
-2025-02-17 15:52:40,154 - INFO - Parsed paper.pdf in 22.18 seconds.
-2025-02-17 15:52:40,635 - INFO - Finished processing paper.pdf. Extracted 21 images and 1 tables.
-2025-02-17 16:04:13,313 - INFO - Processing 2502.10322v1.pdf...
-2025-02-17 16:04:13,335 - INFO - Going to convert document batch...
-2025-02-17 16:04:13,601 - INFO - Accelerator device: 'cuda:0'
-2025-02-17 16:04:15,470 - INFO - Accelerator device: 'cuda:0'
-2025-02-17 16:04:17,004 - INFO - Accelerator device: 'cuda:0'
-2025-02-17 16:04:17,310 - INFO - Processing document 2502.10322v1.pdf
-2025-02-17 16:04:27,693 - INFO - Finished converting document 2502.10322v1.pdf in 14.38 sec.
-2025-02-17 16:04:27,693 - INFO - Parsed 2502.10322v1.pdf in 14.38 seconds.
-2025-02-17 16:04:28,255 - INFO - Finished processing 2502.10322v1.pdf. Extracted 6 images and 4 tables.
-2025-02-17 16:51:07,599 - INFO - Processing paper.pdf...
-2025-02-17 16:51:07,617 - INFO - Going to convert document batch...
-2025-02-17 16:51:07,866 - INFO - Accelerator device: 'cuda:0'
-2025-02-17 16:51:09,700 - INFO - Accelerator device: 'cuda:0'
-2025-02-17 16:51:11,010 - INFO - Accelerator device: 'cuda:0'
-2025-02-17 16:51:11,295 - INFO - Processing document paper.pdf
-2025-02-17 16:51:29,591 - INFO - Finished converting document paper.pdf in 21.99 sec.
-2025-02-17 16:51:29,592 - INFO - Parsed paper.pdf in 21.99 seconds.
-2025-02-17 16:51:49,985 - INFO - Final output saved to ./output/paper/final_output.txt
-2025-02-17 16:51:49,985 - INFO - Finished processing paper.pdf. Extracted 21 images.
+2025-02-18 12:44:54,630 - INFO - Processing paper.pdf...
+2025-02-18 12:44:54,635 - INFO - Processing 2502.10322v1.pdf...
+2025-02-18 12:44:54,661 - INFO - Going to convert document batch...
+2025-02-18 12:44:54,940 - INFO - Accelerator device: 'cuda:0'
+2025-02-18 12:44:54,950 - INFO - Going to convert document batch...
+2025-02-18 12:44:54,950 - INFO - Accelerator device: 'cuda:0'
+2025-02-18 12:44:58,554 - INFO - Accelerator device: 'cuda:0'
+2025-02-18 12:44:58,556 - INFO - Accelerator device: 'cuda:0'
+2025-02-18 12:44:59,814 - INFO - Accelerator device: 'cuda:0'
+2025-02-18 12:45:00,393 - INFO - Accelerator device: 'cuda:0'
+2025-02-18 12:45:00,409 - INFO - Processing document 2502.10322v1.pdf
+2025-02-18 12:45:00,846 - INFO - Processing document paper.pdf
+2025-02-18 12:45:12,045 - INFO - Finished converting document 2502.10322v1.pdf in 17.41 sec.
+2025-02-18 12:45:12,046 - INFO - Parsed 2502.10322v1.pdf in 17.41 seconds.
+2025-02-18 12:45:13,962 - INFO - Generated description for ./output/2502.10322v1/images/image_1.png: a diagram of a laser laser laser laser laser laser laser laser laser laser laser laser laser laser laser laser
+2025-02-18 12:45:15,046 - INFO - Generated description for ./output/2502.10322v1/images/image_2.png: the diagram shows the different phases of the reaction of the reaction
+2025-02-18 12:45:16,228 - INFO - Generated description for ./output/2502.10322v1/images/image_3.png: a diagram of a convex lens with a convex lens
+2025-02-18 12:45:17,130 - INFO - Generated description for ./output/2502.10322v1/images/image_4.png: the image shows the different stages of the tumor
+2025-02-18 12:45:18,700 - INFO - Generated description for ./output/2502.10322v1/images/image_5.png: the mri mri mri mri mri mri mri mri mri mri mri mri mri mri mri mri mri mri mri
+2025-02-18 12:45:20,483 - INFO - Generated description for ./output/2502.10322v1/images/image_6.png: the left side of the left side shows the location of the left side of the left side of the
+2025-02-18 12:45:20,484 - INFO - Final output saved to ./output/2502.10322v1/final_output.txt
+2025-02-18 12:45:20,484 - INFO - Finished processing 2502.10322v1.pdf. Extracted 6 images.
+2025-02-18 12:45:21,867 - INFO - Finished converting document paper.pdf in 27.23 sec.
+2025-02-18 12:45:21,867 - INFO - Parsed paper.pdf in 27.23 seconds.
+2025-02-18 12:45:23,146 - INFO - Generated description for ./output/paper/images/image_1.png: a diagram of the two phases of the algorithm
+2025-02-18 12:45:23,969 - INFO - Generated description for ./output/paper/images/image_2.png: the two graphs show the number of each elements
+2025-02-18 12:45:25,282 - INFO - Generated description for ./output/paper/images/image_3.png: a diagram of a circular shape with a circular shape and a circular shape with a circular shape
+2025-02-18 12:45:26,319 - INFO - Generated description for ./output/paper/images/image_4.png: a diagram of a tree with a tree and a tree with a tree
+2025-02-18 12:45:27,020 - INFO - Generated description for ./output/paper/images/image_5.png: a black and white image of a guitar
+2025-02-18 12:45:27,659 - INFO - Generated description for ./output/paper/images/image_6.png: the three different types of the fourier
+2025-02-18 12:45:28,590 - INFO - Generated description for ./output/paper/images/image_7.png: the same number of different spectrals in a single - cell
+2025-02-18 12:45:29,786 - INFO - Generated description for ./output/paper/images/image_8.png: the three different plots of the different plots of the different plots of the different plots
+2025-02-18 12:45:30,613 - INFO - Generated description for ./output/paper/images/image_9.png: the plot of the fourier plot is shown in green
+2025-02-18 12:45:31,973 - INFO - Generated description for ./output/paper/images/image_10.png: the two plots of the two different types of the two different types of the two different types of the
+2025-02-18 12:45:32,913 - INFO - Generated description for ./output/paper/images/image_11.png: the plot of the fourier plot is shown in blue and green
+2025-02-18 12:45:33,550 - INFO - Generated description for ./output/paper/images/image_12.png: the two different types of the fourier
+2025-02-18 12:45:34,262 - INFO - Generated description for ./output/paper/images/image_13.png: a diagram of the mechanism of a cell
+2025-02-18 12:45:35,383 - INFO - Generated description for ./output/paper/images/image_14.png: the three plots of the fouriers are shown in the following the same plots
+2025-02-18 12:45:36,137 - INFO - Generated description for ./output/paper/images/image_15.png: the three different views of the same spheres
+2025-02-18 12:45:37,015 - INFO - Generated description for ./output/paper/images/image_16.png: the plot of the number of neutrons in the nucleus
+2025-02-18 12:45:38,295 - INFO - Generated description for ./output/paper/images/image_17.png: the plot of the number of the two different types of the number of the two different types
+2025-02-18 12:45:39,642 - INFO - Generated description for ./output/paper/images/image_18.png: the number of the two different types of the two different types of the two types of the two types
+2025-02-18 12:45:40,597 - INFO - Generated description for ./output/paper/images/image_19.png: the results of the two different plots of the two different plots
+2025-02-18 12:45:42,029 - INFO - Generated description for ./output/paper/images/image_20.png: the results of the different photon - activated photon - activated photon - activated photon - activated photon - activated
+2025-02-18 12:45:42,974 - INFO - Generated description for ./output/paper/images/image_21.png: the plot of the fourier plot is shown in the following diagram
+2025-02-18 12:45:42,975 - INFO - Final output saved to ./output/paper/final_output.txt
+2025-02-18 12:45:42,975 - INFO - Finished processing paper.pdf. Extracted 21 images.
