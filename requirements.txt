@@ -4,3 +4,8 @@ langchain-docling
 transformers
 huggingface-hub
 torch
+docling
+transformers
+torch
+Pillow
+
