@@ -45,3 +45,50 @@
 2025-02-18 15:27:22,857 - INFO - Generated description for ./output/paper/images/image_21.png: the plot of the fourier plot is shown in the following diagram
 2025-02-18 15:27:22,857 - INFO - Final output saved to ./output/paper/final_output.txt
 2025-02-18 15:27:22,857 - INFO - Finished processing paper.pdf. Extracted 21 images.
+2025-02-18 17:08:16,508 - INFO - Processing paper.pdf...
+2025-02-18 17:08:16,513 - INFO - Processing paper2.pdf...
+2025-02-18 17:08:16,539 - INFO - Going to convert document batch...
+2025-02-18 17:08:16,818 - INFO - Accelerator device: 'cuda:0'
+2025-02-18 17:08:16,828 - INFO - Going to convert document batch...
+2025-02-18 17:08:16,829 - INFO - Accelerator device: 'cuda:0'
+2025-02-18 17:08:20,270 - INFO - Accelerator device: 'cuda:0'
+2025-02-18 17:08:20,273 - INFO - Accelerator device: 'cuda:0'
+2025-02-18 17:08:21,951 - INFO - Accelerator device: 'cuda:0'
+2025-02-18 17:08:22,333 - INFO - Processing document paper.pdf
+2025-02-18 17:08:22,454 - INFO - Accelerator device: 'cuda:0'
+2025-02-18 17:08:22,764 - INFO - Processing document paper2.pdf
+2025-02-18 17:08:34,133 - INFO - Finished converting document paper2.pdf in 17.62 sec.
+2025-02-18 17:08:34,134 - INFO - Parsed paper2.pdf successfully.
+2025-02-18 17:08:36,189 - INFO - Generated description for ./output/paper2/images/image_1.png: a diagram of a laser laser laser laser laser laser laser laser laser laser laser laser laser laser laser laser
+2025-02-18 17:08:37,350 - INFO - Generated description for ./output/paper2/images/image_2.png: the diagram shows the different phases of the reaction of the reaction
+2025-02-18 17:08:38,418 - INFO - Generated description for ./output/paper2/images/image_3.png: a diagram of a convex lens with a convex lens
+2025-02-18 17:08:39,294 - INFO - Generated description for ./output/paper2/images/image_4.png: the image shows the different stages of the tumor
+2025-02-18 17:08:40,832 - INFO - Generated description for ./output/paper2/images/image_5.png: the mri mri mri mri mri mri mri mri mri mri mri mri mri mri mri mri mri mri mri
+2025-02-18 17:08:42,491 - INFO - Generated description for ./output/paper2/images/image_6.png: the left side of the left side shows the location of the left side of the left side of the
+2025-02-18 17:08:42,491 - INFO - Final output saved to ./output/paper2/final_output.txt
+2025-02-18 17:08:42,491 - INFO - Finished processing paper2.pdf. Extracted 6 images.
+2025-02-18 17:08:44,546 - INFO - Finished converting document paper.pdf in 28.03 sec.
+2025-02-18 17:08:44,546 - INFO - Parsed paper.pdf successfully.
+2025-02-18 17:08:45,750 - INFO - Generated description for ./output/paper/images/image_1.png: a diagram of the two phases of the algorithm
+2025-02-18 17:08:46,484 - INFO - Generated description for ./output/paper/images/image_2.png: the two graphs show the number of each elements
+2025-02-18 17:08:47,780 - INFO - Generated description for ./output/paper/images/image_3.png: a diagram of a circular shape with a circular shape and a circular shape with a circular shape
+2025-02-18 17:08:48,805 - INFO - Generated description for ./output/paper/images/image_4.png: a diagram of a tree with a tree and a tree with a tree
+2025-02-18 17:08:49,488 - INFO - Generated description for ./output/paper/images/image_5.png: a black and white image of a guitar
+2025-02-18 17:08:50,128 - INFO - Generated description for ./output/paper/images/image_6.png: the three different types of the fourier
+2025-02-18 17:08:51,039 - INFO - Generated description for ./output/paper/images/image_7.png: the same number of different spectrals in a single - cell
+2025-02-18 17:08:52,216 - INFO - Generated description for ./output/paper/images/image_8.png: the three different plots of the different plots of the different plots of the different plots
+2025-02-18 17:08:53,002 - INFO - Generated description for ./output/paper/images/image_9.png: the plot of the fourier plot is shown in green
+2025-02-18 17:08:54,327 - INFO - Generated description for ./output/paper/images/image_10.png: the two plots of the two different types of the two different types of the two different types of the
+2025-02-18 17:08:55,234 - INFO - Generated description for ./output/paper/images/image_11.png: the plot of the fourier plot is shown in blue and green
+2025-02-18 17:08:55,847 - INFO - Generated description for ./output/paper/images/image_12.png: the two different types of the fourier
+2025-02-18 17:08:56,529 - INFO - Generated description for ./output/paper/images/image_13.png: a diagram of the mechanism of a cell
+2025-02-18 17:08:57,661 - INFO - Generated description for ./output/paper/images/image_14.png: the three plots of the fouriers are shown in the following the same plots
+2025-02-18 17:08:58,392 - INFO - Generated description for ./output/paper/images/image_15.png: the three different views of the same spheres
+2025-02-18 17:08:59,231 - INFO - Generated description for ./output/paper/images/image_16.png: the plot of the number of neutrons in the nucleus
+2025-02-18 17:09:00,525 - INFO - Generated description for ./output/paper/images/image_17.png: the plot of the number of the two different types of the number of the two different types
+2025-02-18 17:09:01,845 - INFO - Generated description for ./output/paper/images/image_18.png: the number of the two different types of the two different types of the two types of the two types
+2025-02-18 17:09:02,758 - INFO - Generated description for ./output/paper/images/image_19.png: the results of the two different plots of the two different plots
+2025-02-18 17:09:04,091 - INFO - Generated description for ./output/paper/images/image_20.png: the results of the different photon - activated photon - activated photon - activated photon - activated photon - activated
+2025-02-18 17:09:04,992 - INFO - Generated description for ./output/paper/images/image_21.png: the plot of the fourier plot is shown in the following diagram
+2025-02-18 17:09:04,992 - INFO - Final output saved to ./output/paper/final_output.txt
+2025-02-18 17:09:04,992 - INFO - Finished processing paper.pdf. Extracted 21 images.
