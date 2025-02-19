@@ -20,7 +20,7 @@ class DocumentProcessor:
         os.makedirs(output_dir, exist_ok=True)
 
         self.logger.info(f"Processing {pdf_path.name}...")
-        conv_res = self.pdf_processor.parse_pdf(pdf_path)
+        conv_res = self.pdf_processor.process(pdf_path)  # Now using process method from PdfProcessor
 
         if conv_res:
             # Extract images
@@ -38,7 +38,7 @@ class DocumentProcessor:
         """Generate the final output text file with image descriptions."""
         output_text = ""
         for idx, (image_path, _) in enumerate(images, start=1):
-            description = self.image_description_generator.generate_description(image_path)
+            description = self.image_description_generator.process(image_path)  # Using process method from ImageDescriptionGenerator
             output_text += f"<image_{idx}>\n"
             output_text += f"{{image_{idx}_description: {description}}}\n\n"
 

@@ -3,23 +3,21 @@ import logging
 from pathlib import Path
 from docling.document_converter import DocumentConverter
 from docling.datamodel.pipeline_options import PdfPipelineOptions
-from docling_core.types.doc import ImageRefMode, PictureItem, TableItem
 from docling_core.types.doc import PictureItem
 from docling.document_converter import PdfFormatOption
-
-# Importing necessary classes
+from .base import PipelineComponent  # Import the base class
 from docling.datamodel.base_models import InputFormat  # Correct import for InputFormat
-from docling_core.types.doc import PictureItem  # Correct import for PictureItem
+from docling_core.types.doc import PictureItem 
 
-class PdfProcessor:
+class PdfProcessor(PipelineComponent):
     """Handles the parsing and processing of PDF files."""
     
     def __init__(self, scale=2.0):
+        super().__init__(name="PdfProcessor")
         self.scale = scale
-        self.logger = logging.getLogger(__name__)
 
-    def parse_pdf(self, pdf_path):
-        """Parse the PDF and return the conversion result."""
+    def process(self, pdf_path):
+        """Process a PDF file."""
         pipeline_options = PdfPipelineOptions()
         pipeline_options.images_scale = self.scale
         pipeline_options.generate_page_images = True
