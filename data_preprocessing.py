@@ -22,25 +22,39 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import math
 
-# Import necessary libraries
-import os
-import time
-import logging
-from pathlib import Path
-from PIL import Image
-from IPython.display import display
-import requests
-import pandas as pd
-import matplotlib.pyplot as plt
-import concurrent.futures
-from transformers import BlipProcessor, BlipForConditionalGeneration
+
+
+#code part
+
+# docling
 from docling.datamodel.base_models import FigureElement, InputFormat, Table
 from docling.backend.docling_parse_backend import DoclingParseDocumentBackend
+from docling.datamodel.base_models import InputFormat
 from docling.document_converter import DocumentConverter
 from docling.document_converter import PdfFormatOption
-from docling_core.types.doc import PictureItem
-from docling.datamodel.pipeline_options import PdfPipelineOptions
+from docling_core.types.doc import ImageRefMode, PictureItem, TableItem
+from docling.datamodel.pipeline_options import (
+    EasyOcrOptions,
+    OcrMacOptions,
+    PdfPipelineOptions,
+    RapidOcrOptions,
+    TesseractCliOcrOptions,
+    TesseractOcrOptions,
+)
+# other support libraries
+import time
+import requests
+from pathlib import Path
+from IPython.display import display
+import pandas as pd
+import matplotlib.pyplot as plt
 import math
+import os
+import logging
+import concurrent.futures
+from transformers import BlipProcessor, BlipForConditionalGeneration
+from PIL import Image
+
 
 # Constants
 IMAGE_RESOLUTION_SCALE = 2.0
@@ -115,14 +129,58 @@ def extract_images(conv_res, output_dir):
                 logging.error(f"Error saving image {image_number}: {e}")
     return images_list
 
-def generate_final_output(images, output_dir):
-    """Generate the final output text file with image descriptions."""
+def extract_tables(conv_res, output_dir):
+    """Extract tables and save them to the specified directory as text files."""
+    if not conv_res:
+        logging.error("No conversion result found, skipping table extraction.")
+        return []
+
+    os.makedirs(output_dir, exist_ok=True)
+    table_number = 1
+    table_list = []
+
+    for element, _level in conv_res.document.iterate_items():
+        if isinstance(element, TableItem):
+            # Use export_to_dataframe() to get table content as DataFrame
+            try:
+                table_df = element.export_to_dataframe()  # This returns a Pandas DataFrame
+                
+                # Save the table as CSV
+                table_csv_filename = os.path.join(output_dir, f"table_{table_number}.txt")
+                table_df.to_csv(table_csv_filename, index=False)
+                
+                # Save the table as HTML
+                table_html_filename = os.path.join(output_dir, f"table_{table_number}.html")
+                table_df.to_html(table_html_filename, index=False)
+                
+                # Append to table_list
+                table_list.append({
+                    "txt": table_csv_filename,
+                    "html": table_html_filename
+                })
+                
+                table_number += 1
+            except Exception as e:
+                logging.error(f"Error saving table {table_number}: {e}")
+    return table_list
+
+
+def generate_final_output(images, tables, output_dir):
+    """Generate the final output text file with image descriptions and table details."""
     output_text = ""
+
+    # Add descriptions for images
     for idx, (image_path, _) in enumerate(images, start=1):
         description = generate_image_description(image_path)
         output_text += f"<image_{idx}>\n"
         output_text += f"{{image_{idx}_description: {description}}}\n\n"
 
+    # Add table details (now linking only to the text files)
+    for idx, table_filename in enumerate(tables, start=1):
+        output_text += f"<table_{idx}>\n"
+        output_text += f"{{table_{idx}_text: {table_filename}}}\n\n"
+
+    # Save the final output
     output_file_path = os.path.join(output_dir, "final_output.txt")
     try:
         with open(output_file_path, "w") as f:
@@ -145,10 +203,14 @@ def process_pdf(pdf_path, output_base_dir):
         images_dir = os.path.join(output_dir, "images")
         images = extract_images(conv_res, images_dir)
 
-        # Generate final output with image descriptions
-        generate_final_output(images, output_dir)
+        # Extract tables and save them as text files directly under the output directory
+        tables_dir = output_dir  # Save tables directly under output_dir
+        tables = extract_tables(conv_res, tables_dir)
 
-        logging.info(f"Finished processing {pdf_path.name}. Extracted {len(images)} images.")
+        # Generate final output with image descriptions and table details
+        generate_final_output(images, tables, output_dir)
+
+        logging.info(f"Finished processing {pdf_path.name}. Extracted {len(images)} images and {len(tables)} tables.")
     else:
         logging.error(f"Skipping {pdf_path.name} due to parsing error.")
 
@@ -165,7 +227,7 @@ def process_pdf_batch(pdf_paths, output_base_dir):
 # Main script
 if __name__ == "__main__":
     # Define input PDF paths (can be a single file or a list of files)
-    pdf_paths = [Path("paper.pdf"), Path("2502.10322v1.pdf")]  # Add more PDFs as needed
+    pdf_paths = [Path("data/paper.pdf")]  # Add more PDFs as needed
 
     # Run the pipeline
     process_pdf_batch(pdf_paths, OUTPUT_BASE_DIR)

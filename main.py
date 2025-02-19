@@ -16,8 +16,7 @@ from pipeline.logger import setup_logging  # Same for other imports
 def main():
     setup_logging()  # Initialize logging
     output_base_dir = "./output"
-    pdf_paths = [Path("data/paper.pdf"), Path("data/paper2.pdf"), Path("data/paper3.pdf")]  # Add more PDFs as needed
-
+    pdf_paths = [Path("data/paper.pdf"),]
     processor = DocumentProcessor(output_base_dir)
     processor.process_batch(pdf_paths)
 

@@ -3,6 +3,51 @@ import logging
 from concurrent.futures import ThreadPoolExecutor
 from .pdf_processing import PdfProcessor
 from .image_processing import ImageDescriptionGenerator
+from .table_processing import TableProcessor
+# docling
+from docling.datamodel.base_models import FigureElement, InputFormat, Table
+from docling.backend.docling_parse_backend import DoclingParseDocumentBackend
+from docling.datamodel.base_models import InputFormat
+from docling.document_converter import DocumentConverter
+from docling.document_converter import PdfFormatOption
+from docling_core.types.doc import ImageRefMode, PictureItem, TableItem
+from docling.datamodel.pipeline_options import (
+    EasyOcrOptions,
+    OcrMacOptions,
+    PdfPipelineOptions,
+    RapidOcrOptions,
+    TesseractCliOcrOptions,
+    TesseractOcrOptions,
+)
+# other support libraries
+import time
+import requests
+from pathlib import Path
+from IPython.display import display
+import pandas as pd
+import matplotlib.pyplot as plt
+import math
+
+# Import necessary libraries
+import os
+import time
+import logging
+from pathlib import Path
+from PIL import Image
+from IPython.display import display
+import requests
+import pandas as pd
+import matplotlib.pyplot as plt
+import concurrent.futures
+from transformers import BlipProcessor, BlipForConditionalGeneration
+from docling.datamodel.base_models import FigureElement, InputFormat, Table
+from docling.backend.docling_parse_backend import DoclingParseDocumentBackend
+from docling.document_converter import DocumentConverter
+from docling.document_converter import PdfFormatOption
+from docling_core.types.doc import PictureItem
+from docling.datamodel.pipeline_options import PdfPipelineOptions
+import math
+
 
 class DocumentProcessor:
     """Handles the entire document processing pipeline."""
@@ -11,6 +56,7 @@ class DocumentProcessor:
         self.output_base_dir = output_base_dir
         self.pdf_processor = PdfProcessor(scale)
         self.image_description_generator = ImageDescriptionGenerator()
+        self.table_processor = TableProcessor(scale)  # Initialize TableProcessor
         self.logger = logging.getLogger(__name__)
 
     def process_pdf(self, pdf_path):
@@ -26,6 +72,9 @@ class DocumentProcessor:
             # Extract images
             images_dir = os.path.join(output_dir, "images")
             images = self.pdf_processor.extract_images(conv_res, images_dir)
+
+            # Process tables (extract tables and save them in respective directories)
+            self.table_processor.process(pdf_path)  # Extract and save tables as needed
 
             # Generate final output with image descriptions
             self.generate_final_output(images, output_dir)
