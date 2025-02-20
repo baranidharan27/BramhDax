@@ -3,7 +3,7 @@ import logging
 from concurrent.futures import ThreadPoolExecutor
 from .pdf_processing import PdfProcessor
 from .image_processing import ImageDescriptionGenerator
-from .table_processing import TableProcessor
+
 # docling
 from docling.datamodel.base_models import FigureElement, InputFormat, Table
 from docling.backend.docling_parse_backend import DoclingParseDocumentBackend
@@ -28,26 +28,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import math
 
-# Import necessary libraries
 import os
-import time
 import logging
-from pathlib import Path
-from PIL import Image
-from IPython.display import display
-import requests
-import pandas as pd
-import matplotlib.pyplot as plt
-import concurrent.futures
-from transformers import BlipProcessor, BlipForConditionalGeneration
-from docling.datamodel.base_models import FigureElement, InputFormat, Table
-from docling.backend.docling_parse_backend import DoclingParseDocumentBackend
-from docling.document_converter import DocumentConverter
-from docling.document_converter import PdfFormatOption
-from docling_core.types.doc import PictureItem
-from docling.datamodel.pipeline_options import PdfPipelineOptions
-import math
-
+from concurrent.futures import ThreadPoolExecutor
+from .pdf_processing import PdfProcessor
+from .image_processing import ImageDescriptionGenerator
+from .table_processing import TableProcessor
 
 class DocumentProcessor:
     """Handles the entire document processing pipeline."""
@@ -66,31 +52,40 @@ class DocumentProcessor:
         os.makedirs(output_dir, exist_ok=True)
 
         self.logger.info(f"Processing {pdf_path.name}...")
-        conv_res = self.pdf_processor.process(pdf_path)  # Now using process method from PdfProcessor
+        conv_res = self.pdf_processor.process(pdf_path)
 
         if conv_res:
             # Extract images
             images_dir = os.path.join(output_dir, "images")
             images = self.pdf_processor.extract_images(conv_res, images_dir)
 
-            # Process tables (extract tables and save them in respective directories)
-            self.table_processor.process(pdf_path)  # Extract and save tables as needed
+            # Extract tables and save them as text files
+            tables_dir = os.path.join(output_dir, "tables")
+            tables = self.table_processor.process(conv_res, tables_dir)  # Pass conversion result to TableProcessor
 
-            # Generate final output with image descriptions
-            self.generate_final_output(images, output_dir)
+            # Generate final output with image descriptions and table details
+            self.generate_final_output(images, tables, output_dir)
 
-            self.logger.info(f"Finished processing {pdf_path.name}. Extracted {len(images)} images.")
+            self.logger.info(f"Finished processing {pdf_path.name}. Extracted {len(images)} images and {len(tables)} tables.")
         else:
             self.logger.error(f"Skipping {pdf_path.name} due to parsing error.")
 
-    def generate_final_output(self, images, output_dir):
-        """Generate the final output text file with image descriptions."""
+    def generate_final_output(self, images, tables, output_dir):
+        """Generate the final output text file with image descriptions and table details."""
         output_text = ""
+
+        # Add descriptions for images
         for idx, (image_path, _) in enumerate(images, start=1):
-            description = self.image_description_generator.process(image_path)  # Using process method from ImageDescriptionGenerator
+            description = self.image_description_generator.process(image_path)
             output_text += f"<image_{idx}>\n"
             output_text += f"{{image_{idx}_description: {description}}}\n\n"
 
+        # Add table details (linking to the text files)
+        for idx, table_filename in enumerate(tables, start=1):
+            output_text += f"<table_{idx}>\n"
+            output_text += f"{{table_{idx}_text: {table_filename}}}\n\n"
+
+        # Save the final output
         output_file_path = os.path.join(output_dir, "final_output.txt")
         try:
             with open(output_file_path, "w") as f:

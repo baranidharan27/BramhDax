@@ -62,5 +62,5 @@
 {image_21_description: the plot of the fourier plot is shown in the following diagram}
 
 <table_1>
-{table_1_text: {'txt': './output/paper/table_1.txt', 'html': './output/paper/table_1.html'}}
+{table_1_text: ./output/paper/tables/table_1.txt}
 
