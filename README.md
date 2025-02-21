@@ -201,7 +201,3 @@ Modify `document_processing.py` to add new output formats.
 ### Notebooks
 - `docling_parsing.ipynb`: Examples and tutorials for using Docling
 - `try_rag.ipynb`: Optional RAG implementation example using Granite model
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
