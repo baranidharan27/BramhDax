@@ -1,0 +1,486 @@
+2025-02-21 13:21:05,127 - INFO - Processing paper.pdf...
+2025-02-21 13:21:05,147 - INFO - Going to convert document batch...
+2025-02-21 13:21:05,414 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 13:21:07,276 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 13:21:08,848 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 13:21:09,143 - INFO - Processing document paper.pdf
+2025-02-21 13:21:27,457 - INFO - Finished converting document paper.pdf in 22.33 sec.
+2025-02-21 13:21:27,914 - INFO - Final output saved to ./output/paper/final_output.txt
+2025-02-21 13:21:27,914 - INFO - Finished processing paper.pdf. Extracted 21 images.
+2025-02-21 13:26:54,511 - INFO - Processing paper.pdf...
+2025-02-21 13:26:54,525 - INFO - Going to convert document batch...
+2025-02-21 13:26:54,525 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 13:26:56,087 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 13:26:57,246 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 13:26:57,518 - INFO - Processing document paper.pdf
+2025-02-21 13:27:14,515 - INFO - Finished converting document paper.pdf in 20.00 sec.
+2025-02-21 13:27:14,971 - INFO - Final output saved to ./output/paper/final_output.txt
+2025-02-21 13:27:14,971 - INFO - Finished processing paper.pdf. Extracted 21 images.
+2025-02-21 14:52:27,828 - INFO - Processing paper.pdf...
+2025-02-21 14:52:27,838 - INFO - Going to convert document batch...
+2025-02-21 14:52:27,838 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 14:52:29,400 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 14:52:30,634 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 14:52:30,897 - INFO - Processing document paper.pdf
+2025-02-21 14:52:43,135 - INFO - Finished converting document paper.pdf in 15.31 sec.
+2025-02-21 14:52:43,136 - ERROR - Error processing image 1: 'NoneType' object has no attribute 'save'
+2025-02-21 14:52:43,136 - ERROR - Error processing image 1: 'NoneType' object has no attribute 'save'
+2025-02-21 14:52:43,136 - ERROR - Error processing image 1: 'NoneType' object has no attribute 'save'
+2025-02-21 14:52:43,136 - ERROR - Error processing image 1: 'NoneType' object has no attribute 'save'
+2025-02-21 14:52:43,136 - ERROR - Error processing image 1: 'NoneType' object has no attribute 'save'
+2025-02-21 14:52:43,137 - ERROR - Error processing image 1: 'NoneType' object has no attribute 'save'
+2025-02-21 14:52:43,137 - ERROR - Error processing image 1: 'NoneType' object has no attribute 'save'
+2025-02-21 14:52:43,137 - ERROR - Error processing image 1: 'NoneType' object has no attribute 'save'
+2025-02-21 14:52:43,137 - ERROR - Error processing image 1: 'NoneType' object has no attribute 'save'
+2025-02-21 14:52:43,137 - ERROR - Error processing image 1: 'NoneType' object has no attribute 'save'
+2025-02-21 14:52:43,137 - ERROR - Error processing image 1: 'NoneType' object has no attribute 'save'
+2025-02-21 14:52:43,137 - ERROR - Error processing image 1: 'NoneType' object has no attribute 'save'
+2025-02-21 14:52:43,137 - ERROR - Error processing image 1: 'NoneType' object has no attribute 'save'
+2025-02-21 14:52:43,137 - ERROR - Error processing image 1: 'NoneType' object has no attribute 'save'
+2025-02-21 14:52:43,137 - ERROR - Error processing image 1: 'NoneType' object has no attribute 'save'
+2025-02-21 14:52:43,137 - ERROR - Error processing image 1: 'NoneType' object has no attribute 'save'
+2025-02-21 14:52:43,137 - ERROR - Error processing image 1: 'NoneType' object has no attribute 'save'
+2025-02-21 14:52:43,138 - ERROR - Error processing image 1: 'NoneType' object has no attribute 'save'
+2025-02-21 14:52:43,138 - ERROR - Error processing image 1: 'NoneType' object has no attribute 'save'
+2025-02-21 14:52:43,138 - ERROR - Error processing image 1: 'NoneType' object has no attribute 'save'
+2025-02-21 14:52:43,138 - ERROR - Error processing image 1: 'NoneType' object has no attribute 'save'
+2025-02-21 14:52:43,143 - INFO - Output saved to final_output.txt
+2025-02-21 14:57:06,713 - INFO - Processing paper.pdf...
+2025-02-21 14:57:06,724 - INFO - Going to convert document batch...
+2025-02-21 14:57:06,724 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 14:57:08,299 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 14:57:09,170 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 14:57:09,433 - INFO - Processing document paper.pdf
+2025-02-21 14:57:21,476 - INFO - Finished converting document paper.pdf in 14.76 sec.
+2025-02-21 14:57:21,476 - INFO - Found PictureItem at level 1
+2025-02-21 14:57:21,476 - WARNING - Image 1 is None, skipping...
+2025-02-21 14:57:21,477 - INFO - Found PictureItem at level 1
+2025-02-21 14:57:21,477 - WARNING - Image 1 is None, skipping...
+2025-02-21 14:57:21,477 - INFO - Found PictureItem at level 1
+2025-02-21 14:57:21,477 - WARNING - Image 1 is None, skipping...
+2025-02-21 14:57:21,477 - INFO - Found PictureItem at level 1
+2025-02-21 14:57:21,477 - WARNING - Image 1 is None, skipping...
+2025-02-21 14:57:21,477 - INFO - Found PictureItem at level 1
+2025-02-21 14:57:21,477 - WARNING - Image 1 is None, skipping...
+2025-02-21 14:57:21,477 - INFO - Found PictureItem at level 1
+2025-02-21 14:57:21,477 - WARNING - Image 1 is None, skipping...
+2025-02-21 14:57:21,477 - INFO - Found PictureItem at level 1
+2025-02-21 14:57:21,477 - WARNING - Image 1 is None, skipping...
+2025-02-21 14:57:21,477 - INFO - Found PictureItem at level 1
+2025-02-21 14:57:21,477 - WARNING - Image 1 is None, skipping...
+2025-02-21 14:57:21,477 - INFO - Found PictureItem at level 1
+2025-02-21 14:57:21,477 - WARNING - Image 1 is None, skipping...
+2025-02-21 14:57:21,477 - INFO - Found PictureItem at level 1
+2025-02-21 14:57:21,477 - WARNING - Image 1 is None, skipping...
+2025-02-21 14:57:21,477 - INFO - Found PictureItem at level 1
+2025-02-21 14:57:21,477 - WARNING - Image 1 is None, skipping...
+2025-02-21 14:57:21,478 - INFO - Found PictureItem at level 1
+2025-02-21 14:57:21,478 - WARNING - Image 1 is None, skipping...
+2025-02-21 14:57:21,478 - INFO - Found PictureItem at level 1
+2025-02-21 14:57:21,478 - WARNING - Image 1 is None, skipping...
+2025-02-21 14:57:21,478 - INFO - Found PictureItem at level 1
+2025-02-21 14:57:21,478 - WARNING - Image 1 is None, skipping...
+2025-02-21 14:57:21,478 - INFO - Found PictureItem at level 1
+2025-02-21 14:57:21,478 - WARNING - Image 1 is None, skipping...
+2025-02-21 14:57:21,478 - INFO - Found PictureItem at level 1
+2025-02-21 14:57:21,478 - WARNING - Image 1 is None, skipping...
+2025-02-21 14:57:21,478 - INFO - Found PictureItem at level 1
+2025-02-21 14:57:21,478 - WARNING - Image 1 is None, skipping...
+2025-02-21 14:57:21,478 - INFO - Found PictureItem at level 1
+2025-02-21 14:57:21,478 - WARNING - Image 1 is None, skipping...
+2025-02-21 14:57:21,478 - INFO - Found PictureItem at level 1
+2025-02-21 14:57:21,478 - WARNING - Image 1 is None, skipping...
+2025-02-21 14:57:21,478 - INFO - Found PictureItem at level 1
+2025-02-21 14:57:21,478 - WARNING - Image 1 is None, skipping...
+2025-02-21 14:57:21,478 - INFO - Found PictureItem at level 1
+2025-02-21 14:57:21,478 - WARNING - Image 1 is None, skipping...
+2025-02-21 14:57:21,483 - INFO - Output saved to final_output.txt
+2025-02-21 15:00:34,325 - INFO - Processing paper.pdf...
+2025-02-21 15:00:34,333 - INFO - Going to convert document batch...
+2025-02-21 15:00:34,334 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 15:00:35,902 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 15:00:37,144 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 15:00:37,408 - INFO - Processing document paper.pdf
+2025-02-21 15:00:49,629 - INFO - Finished converting document paper.pdf in 15.30 sec.
+2025-02-21 15:00:49,629 - INFO - Found PictureItem at level 1
+2025-02-21 15:00:49,629 - WARNING - Image 1 is None, skipping...
+2025-02-21 15:00:49,629 - INFO - Found PictureItem at level 1
+2025-02-21 15:00:49,630 - WARNING - Image 1 is None, skipping...
+2025-02-21 15:00:49,630 - INFO - Found PictureItem at level 1
+2025-02-21 15:00:49,630 - WARNING - Image 1 is None, skipping...
+2025-02-21 15:00:49,630 - INFO - Found PictureItem at level 1
+2025-02-21 15:00:49,630 - WARNING - Image 1 is None, skipping...
+2025-02-21 15:00:49,630 - INFO - Found PictureItem at level 1
+2025-02-21 15:00:49,630 - WARNING - Image 1 is None, skipping...
+2025-02-21 15:00:49,630 - INFO - Found PictureItem at level 1
+2025-02-21 15:00:49,630 - WARNING - Image 1 is None, skipping...
+2025-02-21 15:00:49,630 - INFO - Found PictureItem at level 1
+2025-02-21 15:00:49,630 - WARNING - Image 1 is None, skipping...
+2025-02-21 15:00:49,630 - INFO - Found PictureItem at level 1
+2025-02-21 15:00:49,630 - WARNING - Image 1 is None, skipping...
+2025-02-21 15:00:49,630 - INFO - Found PictureItem at level 1
+2025-02-21 15:00:49,630 - WARNING - Image 1 is None, skipping...
+2025-02-21 15:00:49,630 - INFO - Found PictureItem at level 1
+2025-02-21 15:00:49,630 - WARNING - Image 1 is None, skipping...
+2025-02-21 15:00:49,630 - INFO - Found PictureItem at level 1
+2025-02-21 15:00:49,630 - WARNING - Image 1 is None, skipping...
+2025-02-21 15:00:49,630 - INFO - Found PictureItem at level 1
+2025-02-21 15:00:49,630 - WARNING - Image 1 is None, skipping...
+2025-02-21 15:00:49,631 - INFO - Found PictureItem at level 1
+2025-02-21 15:00:49,631 - WARNING - Image 1 is None, skipping...
+2025-02-21 15:00:49,631 - INFO - Found PictureItem at level 1
+2025-02-21 15:00:49,631 - WARNING - Image 1 is None, skipping...
+2025-02-21 15:00:49,631 - INFO - Found PictureItem at level 1
+2025-02-21 15:00:49,631 - WARNING - Image 1 is None, skipping...
+2025-02-21 15:00:49,631 - INFO - Found PictureItem at level 1
+2025-02-21 15:00:49,631 - WARNING - Image 1 is None, skipping...
+2025-02-21 15:00:49,631 - INFO - Found PictureItem at level 1
+2025-02-21 15:00:49,631 - WARNING - Image 1 is None, skipping...
+2025-02-21 15:00:49,631 - INFO - Found PictureItem at level 1
+2025-02-21 15:00:49,631 - WARNING - Image 1 is None, skipping...
+2025-02-21 15:00:49,631 - INFO - Found PictureItem at level 1
+2025-02-21 15:00:49,631 - WARNING - Image 1 is None, skipping...
+2025-02-21 15:00:49,631 - INFO - Found PictureItem at level 1
+2025-02-21 15:00:49,631 - WARNING - Image 1 is None, skipping...
+2025-02-21 15:00:49,631 - INFO - Found PictureItem at level 1
+2025-02-21 15:00:49,631 - WARNING - Image 1 is None, skipping...
+2025-02-21 15:00:49,631 - INFO - Successfully extracted 0 images
+2025-02-21 15:00:49,636 - WARNING - No images to save
+2025-02-21 15:27:28,113 - INFO - Processing paper.pdf...
+2025-02-21 15:27:28,121 - INFO - Going to convert document batch...
+2025-02-21 15:27:28,122 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 15:27:29,692 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 15:27:30,848 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 15:27:31,116 - INFO - Processing document paper.pdf
+2025-02-21 15:27:43,170 - INFO - Finished converting document paper.pdf in 15.06 sec.
+2025-02-21 15:27:43,170 - INFO - Processing page 1
+2025-02-21 15:27:43,170 - ERROR - Error processing PDF: 'int' object has no attribute 'items'
+2025-02-21 15:27:43,175 - WARNING - No images to save
+2025-02-21 15:28:38,190 - INFO - Processing paper.pdf...
+2025-02-21 15:28:38,199 - INFO - Going to convert document batch...
+2025-02-21 15:28:38,199 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 15:28:39,764 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 15:28:40,727 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 15:28:40,996 - INFO - Processing document paper.pdf
+2025-02-21 15:28:53,268 - INFO - Finished converting document paper.pdf in 15.08 sec.
+2025-02-21 15:28:53,269 - INFO - Found PictureItem at level 1
+2025-02-21 15:28:53,269 - INFO - Available methods: ['__abstractmethods__', '__annotations__', '__class__', '__class_getitem__', '__class_vars__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__fields__', '__fields_set__', '__format__', '__ge__', '__get_pydantic_core_schema__', '__get_pydantic_json_schema__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__pretty__', '__private_attributes__', '__pydantic_complete__', '__pydantic_computed_fields__', '__pydantic_core_schema__', '__pydantic_custom_init__', '__pydantic_decorators__', '__pydantic_extra__', '__pydantic_fields__', '__pydantic_fields_set__', '__pydantic_generic_metadata__', '__pydantic_init_subclass__', '__pydantic_parent_namespace__', '__pydantic_post_init__', '__pydantic_private__', '__pydantic_root_model__', '__pydantic_serializer__', '__pydantic_validator__', '__reduce__', '__reduce_ex__', '__replace__', '__repr__', '__repr_args__', '__repr_name__', '__repr_recursion__', '__repr_str__', '__rich_repr__', '__setattr__', '__setstate__', '__signature__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', '_calculate_keys', '_check_frozen', '_copy_and_set_values', '_get_value', '_image_to_base64', '_image_to_hexhash', '_iter', 'annotations', 'caption_text', 'captions', 'children', 'construct', 'content_layer', 'copy', 'dict', 'export_to_document_tokens', 'export_to_html', 'export_to_markdown', 'footnotes', 'from_orm', 'get_image', 'get_location_tokens', 'get_ref', 'image', 'json', 'label', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'parent', 'parse_file', 'parse_obj', 'parse_raw', 'prov', 'references', 'schema', 'schema_json', 'self_ref', 'update_forward_refs', 'validate']
+2025-02-21 15:28:53,269 - WARNING - Image 1 is None
+2025-02-21 15:28:53,269 - INFO - Found PictureItem at level 1
+2025-02-21 15:28:53,269 - INFO - Available methods: ['__abstractmethods__', '__annotations__', '__class__', '__class_getitem__', '__class_vars__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__fields__', '__fields_set__', '__format__', '__ge__', '__get_pydantic_core_schema__', '__get_pydantic_json_schema__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__pretty__', '__private_attributes__', '__pydantic_complete__', '__pydantic_computed_fields__', '__pydantic_core_schema__', '__pydantic_custom_init__', '__pydantic_decorators__', '__pydantic_extra__', '__pydantic_fields__', '__pydantic_fields_set__', '__pydantic_generic_metadata__', '__pydantic_init_subclass__', '__pydantic_parent_namespace__', '__pydantic_post_init__', '__pydantic_private__', '__pydantic_root_model__', '__pydantic_serializer__', '__pydantic_validator__', '__reduce__', '__reduce_ex__', '__replace__', '__repr__', '__repr_args__', '__repr_name__', '__repr_recursion__', '__repr_str__', '__rich_repr__', '__setattr__', '__setstate__', '__signature__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', '_calculate_keys', '_check_frozen', '_copy_and_set_values', '_get_value', '_image_to_base64', '_image_to_hexhash', '_iter', 'annotations', 'caption_text', 'captions', 'children', 'construct', 'content_layer', 'copy', 'dict', 'export_to_document_tokens', 'export_to_html', 'export_to_markdown', 'footnotes', 'from_orm', 'get_image', 'get_location_tokens', 'get_ref', 'image', 'json', 'label', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'parent', 'parse_file', 'parse_obj', 'parse_raw', 'prov', 'references', 'schema', 'schema_json', 'self_ref', 'update_forward_refs', 'validate']
+2025-02-21 15:28:53,269 - WARNING - Image 1 is None
+2025-02-21 15:28:53,270 - INFO - Found PictureItem at level 1
+2025-02-21 15:28:53,270 - INFO - Available methods: ['__abstractmethods__', '__annotations__', '__class__', '__class_getitem__', '__class_vars__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__fields__', '__fields_set__', '__format__', '__ge__', '__get_pydantic_core_schema__', '__get_pydantic_json_schema__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__pretty__', '__private_attributes__', '__pydantic_complete__', '__pydantic_computed_fields__', '__pydantic_core_schema__', '__pydantic_custom_init__', '__pydantic_decorators__', '__pydantic_extra__', '__pydantic_fields__', '__pydantic_fields_set__', '__pydantic_generic_metadata__', '__pydantic_init_subclass__', '__pydantic_parent_namespace__', '__pydantic_post_init__', '__pydantic_private__', '__pydantic_root_model__', '__pydantic_serializer__', '__pydantic_validator__', '__reduce__', '__reduce_ex__', '__replace__', '__repr__', '__repr_args__', '__repr_name__', '__repr_recursion__', '__repr_str__', '__rich_repr__', '__setattr__', '__setstate__', '__signature__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', '_calculate_keys', '_check_frozen', '_copy_and_set_values', '_get_value', '_image_to_base64', '_image_to_hexhash', '_iter', 'annotations', 'caption_text', 'captions', 'children', 'construct', 'content_layer', 'copy', 'dict', 'export_to_document_tokens', 'export_to_html', 'export_to_markdown', 'footnotes', 'from_orm', 'get_image', 'get_location_tokens', 'get_ref', 'image', 'json', 'label', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'parent', 'parse_file', 'parse_obj', 'parse_raw', 'prov', 'references', 'schema', 'schema_json', 'self_ref', 'update_forward_refs', 'validate']
+2025-02-21 15:28:53,270 - WARNING - Image 1 is None
+2025-02-21 15:28:53,270 - INFO - Found PictureItem at level 1
+2025-02-21 15:28:53,270 - INFO - Available methods: ['__abstractmethods__', '__annotations__', '__class__', '__class_getitem__', '__class_vars__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__fields__', '__fields_set__', '__format__', '__ge__', '__get_pydantic_core_schema__', '__get_pydantic_json_schema__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__pretty__', '__private_attributes__', '__pydantic_complete__', '__pydantic_computed_fields__', '__pydantic_core_schema__', '__pydantic_custom_init__', '__pydantic_decorators__', '__pydantic_extra__', '__pydantic_fields__', '__pydantic_fields_set__', '__pydantic_generic_metadata__', '__pydantic_init_subclass__', '__pydantic_parent_namespace__', '__pydantic_post_init__', '__pydantic_private__', '__pydantic_root_model__', '__pydantic_serializer__', '__pydantic_validator__', '__reduce__', '__reduce_ex__', '__replace__', '__repr__', '__repr_args__', '__repr_name__', '__repr_recursion__', '__repr_str__', '__rich_repr__', '__setattr__', '__setstate__', '__signature__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', '_calculate_keys', '_check_frozen', '_copy_and_set_values', '_get_value', '_image_to_base64', '_image_to_hexhash', '_iter', 'annotations', 'caption_text', 'captions', 'children', 'construct', 'content_layer', 'copy', 'dict', 'export_to_document_tokens', 'export_to_html', 'export_to_markdown', 'footnotes', 'from_orm', 'get_image', 'get_location_tokens', 'get_ref', 'image', 'json', 'label', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'parent', 'parse_file', 'parse_obj', 'parse_raw', 'prov', 'references', 'schema', 'schema_json', 'self_ref', 'update_forward_refs', 'validate']
+2025-02-21 15:28:53,270 - WARNING - Image 1 is None
+2025-02-21 15:28:53,270 - INFO - Found PictureItem at level 1
+2025-02-21 15:28:53,270 - INFO - Available methods: ['__abstractmethods__', '__annotations__', '__class__', '__class_getitem__', '__class_vars__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__fields__', '__fields_set__', '__format__', '__ge__', '__get_pydantic_core_schema__', '__get_pydantic_json_schema__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__pretty__', '__private_attributes__', '__pydantic_complete__', '__pydantic_computed_fields__', '__pydantic_core_schema__', '__pydantic_custom_init__', '__pydantic_decorators__', '__pydantic_extra__', '__pydantic_fields__', '__pydantic_fields_set__', '__pydantic_generic_metadata__', '__pydantic_init_subclass__', '__pydantic_parent_namespace__', '__pydantic_post_init__', '__pydantic_private__', '__pydantic_root_model__', '__pydantic_serializer__', '__pydantic_validator__', '__reduce__', '__reduce_ex__', '__replace__', '__repr__', '__repr_args__', '__repr_name__', '__repr_recursion__', '__repr_str__', '__rich_repr__', '__setattr__', '__setstate__', '__signature__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', '_calculate_keys', '_check_frozen', '_copy_and_set_values', '_get_value', '_image_to_base64', '_image_to_hexhash', '_iter', 'annotations', 'caption_text', 'captions', 'children', 'construct', 'content_layer', 'copy', 'dict', 'export_to_document_tokens', 'export_to_html', 'export_to_markdown', 'footnotes', 'from_orm', 'get_image', 'get_location_tokens', 'get_ref', 'image', 'json', 'label', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'parent', 'parse_file', 'parse_obj', 'parse_raw', 'prov', 'references', 'schema', 'schema_json', 'self_ref', 'update_forward_refs', 'validate']
+2025-02-21 15:28:53,270 - WARNING - Image 1 is None
+2025-02-21 15:28:53,270 - INFO - Found PictureItem at level 1
+2025-02-21 15:28:53,270 - INFO - Available methods: ['__abstractmethods__', '__annotations__', '__class__', '__class_getitem__', '__class_vars__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__fields__', '__fields_set__', '__format__', '__ge__', '__get_pydantic_core_schema__', '__get_pydantic_json_schema__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__pretty__', '__private_attributes__', '__pydantic_complete__', '__pydantic_computed_fields__', '__pydantic_core_schema__', '__pydantic_custom_init__', '__pydantic_decorators__', '__pydantic_extra__', '__pydantic_fields__', '__pydantic_fields_set__', '__pydantic_generic_metadata__', '__pydantic_init_subclass__', '__pydantic_parent_namespace__', '__pydantic_post_init__', '__pydantic_private__', '__pydantic_root_model__', '__pydantic_serializer__', '__pydantic_validator__', '__reduce__', '__reduce_ex__', '__replace__', '__repr__', '__repr_args__', '__repr_name__', '__repr_recursion__', '__repr_str__', '__rich_repr__', '__setattr__', '__setstate__', '__signature__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', '_calculate_keys', '_check_frozen', '_copy_and_set_values', '_get_value', '_image_to_base64', '_image_to_hexhash', '_iter', 'annotations', 'caption_text', 'captions', 'children', 'construct', 'content_layer', 'copy', 'dict', 'export_to_document_tokens', 'export_to_html', 'export_to_markdown', 'footnotes', 'from_orm', 'get_image', 'get_location_tokens', 'get_ref', 'image', 'json', 'label', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'parent', 'parse_file', 'parse_obj', 'parse_raw', 'prov', 'references', 'schema', 'schema_json', 'self_ref', 'update_forward_refs', 'validate']
+2025-02-21 15:28:53,270 - WARNING - Image 1 is None
+2025-02-21 15:28:53,270 - INFO - Found PictureItem at level 1
+2025-02-21 15:28:53,270 - INFO - Available methods: ['__abstractmethods__', '__annotations__', '__class__', '__class_getitem__', '__class_vars__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__fields__', '__fields_set__', '__format__', '__ge__', '__get_pydantic_core_schema__', '__get_pydantic_json_schema__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__pretty__', '__private_attributes__', '__pydantic_complete__', '__pydantic_computed_fields__', '__pydantic_core_schema__', '__pydantic_custom_init__', '__pydantic_decorators__', '__pydantic_extra__', '__pydantic_fields__', '__pydantic_fields_set__', '__pydantic_generic_metadata__', '__pydantic_init_subclass__', '__pydantic_parent_namespace__', '__pydantic_post_init__', '__pydantic_private__', '__pydantic_root_model__', '__pydantic_serializer__', '__pydantic_validator__', '__reduce__', '__reduce_ex__', '__replace__', '__repr__', '__repr_args__', '__repr_name__', '__repr_recursion__', '__repr_str__', '__rich_repr__', '__setattr__', '__setstate__', '__signature__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', '_calculate_keys', '_check_frozen', '_copy_and_set_values', '_get_value', '_image_to_base64', '_image_to_hexhash', '_iter', 'annotations', 'caption_text', 'captions', 'children', 'construct', 'content_layer', 'copy', 'dict', 'export_to_document_tokens', 'export_to_html', 'export_to_markdown', 'footnotes', 'from_orm', 'get_image', 'get_location_tokens', 'get_ref', 'image', 'json', 'label', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'parent', 'parse_file', 'parse_obj', 'parse_raw', 'prov', 'references', 'schema', 'schema_json', 'self_ref', 'update_forward_refs', 'validate']
+2025-02-21 15:28:53,270 - WARNING - Image 1 is None
+2025-02-21 15:28:53,270 - INFO - Found PictureItem at level 1
+2025-02-21 15:28:53,270 - INFO - Available methods: ['__abstractmethods__', '__annotations__', '__class__', '__class_getitem__', '__class_vars__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__fields__', '__fields_set__', '__format__', '__ge__', '__get_pydantic_core_schema__', '__get_pydantic_json_schema__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__pretty__', '__private_attributes__', '__pydantic_complete__', '__pydantic_computed_fields__', '__pydantic_core_schema__', '__pydantic_custom_init__', '__pydantic_decorators__', '__pydantic_extra__', '__pydantic_fields__', '__pydantic_fields_set__', '__pydantic_generic_metadata__', '__pydantic_init_subclass__', '__pydantic_parent_namespace__', '__pydantic_post_init__', '__pydantic_private__', '__pydantic_root_model__', '__pydantic_serializer__', '__pydantic_validator__', '__reduce__', '__reduce_ex__', '__replace__', '__repr__', '__repr_args__', '__repr_name__', '__repr_recursion__', '__repr_str__', '__rich_repr__', '__setattr__', '__setstate__', '__signature__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', '_calculate_keys', '_check_frozen', '_copy_and_set_values', '_get_value', '_image_to_base64', '_image_to_hexhash', '_iter', 'annotations', 'caption_text', 'captions', 'children', 'construct', 'content_layer', 'copy', 'dict', 'export_to_document_tokens', 'export_to_html', 'export_to_markdown', 'footnotes', 'from_orm', 'get_image', 'get_location_tokens', 'get_ref', 'image', 'json', 'label', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'parent', 'parse_file', 'parse_obj', 'parse_raw', 'prov', 'references', 'schema', 'schema_json', 'self_ref', 'update_forward_refs', 'validate']
+2025-02-21 15:28:53,270 - WARNING - Image 1 is None
+2025-02-21 15:28:53,270 - INFO - Found PictureItem at level 1
+2025-02-21 15:28:53,270 - INFO - Available methods: ['__abstractmethods__', '__annotations__', '__class__', '__class_getitem__', '__class_vars__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__fields__', '__fields_set__', '__format__', '__ge__', '__get_pydantic_core_schema__', '__get_pydantic_json_schema__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__pretty__', '__private_attributes__', '__pydantic_complete__', '__pydantic_computed_fields__', '__pydantic_core_schema__', '__pydantic_custom_init__', '__pydantic_decorators__', '__pydantic_extra__', '__pydantic_fields__', '__pydantic_fields_set__', '__pydantic_generic_metadata__', '__pydantic_init_subclass__', '__pydantic_parent_namespace__', '__pydantic_post_init__', '__pydantic_private__', '__pydantic_root_model__', '__pydantic_serializer__', '__pydantic_validator__', '__reduce__', '__reduce_ex__', '__replace__', '__repr__', '__repr_args__', '__repr_name__', '__repr_recursion__', '__repr_str__', '__rich_repr__', '__setattr__', '__setstate__', '__signature__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', '_calculate_keys', '_check_frozen', '_copy_and_set_values', '_get_value', '_image_to_base64', '_image_to_hexhash', '_iter', 'annotations', 'caption_text', 'captions', 'children', 'construct', 'content_layer', 'copy', 'dict', 'export_to_document_tokens', 'export_to_html', 'export_to_markdown', 'footnotes', 'from_orm', 'get_image', 'get_location_tokens', 'get_ref', 'image', 'json', 'label', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'parent', 'parse_file', 'parse_obj', 'parse_raw', 'prov', 'references', 'schema', 'schema_json', 'self_ref', 'update_forward_refs', 'validate']
+2025-02-21 15:28:53,270 - WARNING - Image 1 is None
+2025-02-21 15:28:53,270 - INFO - Found PictureItem at level 1
+2025-02-21 15:28:53,270 - INFO - Available methods: ['__abstractmethods__', '__annotations__', '__class__', '__class_getitem__', '__class_vars__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__fields__', '__fields_set__', '__format__', '__ge__', '__get_pydantic_core_schema__', '__get_pydantic_json_schema__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__pretty__', '__private_attributes__', '__pydantic_complete__', '__pydantic_computed_fields__', '__pydantic_core_schema__', '__pydantic_custom_init__', '__pydantic_decorators__', '__pydantic_extra__', '__pydantic_fields__', '__pydantic_fields_set__', '__pydantic_generic_metadata__', '__pydantic_init_subclass__', '__pydantic_parent_namespace__', '__pydantic_post_init__', '__pydantic_private__', '__pydantic_root_model__', '__pydantic_serializer__', '__pydantic_validator__', '__reduce__', '__reduce_ex__', '__replace__', '__repr__', '__repr_args__', '__repr_name__', '__repr_recursion__', '__repr_str__', '__rich_repr__', '__setattr__', '__setstate__', '__signature__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', '_calculate_keys', '_check_frozen', '_copy_and_set_values', '_get_value', '_image_to_base64', '_image_to_hexhash', '_iter', 'annotations', 'caption_text', 'captions', 'children', 'construct', 'content_layer', 'copy', 'dict', 'export_to_document_tokens', 'export_to_html', 'export_to_markdown', 'footnotes', 'from_orm', 'get_image', 'get_location_tokens', 'get_ref', 'image', 'json', 'label', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'parent', 'parse_file', 'parse_obj', 'parse_raw', 'prov', 'references', 'schema', 'schema_json', 'self_ref', 'update_forward_refs', 'validate']
+2025-02-21 15:28:53,270 - WARNING - Image 1 is None
+2025-02-21 15:28:53,270 - INFO - Found PictureItem at level 1
+2025-02-21 15:28:53,270 - INFO - Available methods: ['__abstractmethods__', '__annotations__', '__class__', '__class_getitem__', '__class_vars__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__fields__', '__fields_set__', '__format__', '__ge__', '__get_pydantic_core_schema__', '__get_pydantic_json_schema__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__pretty__', '__private_attributes__', '__pydantic_complete__', '__pydantic_computed_fields__', '__pydantic_core_schema__', '__pydantic_custom_init__', '__pydantic_decorators__', '__pydantic_extra__', '__pydantic_fields__', '__pydantic_fields_set__', '__pydantic_generic_metadata__', '__pydantic_init_subclass__', '__pydantic_parent_namespace__', '__pydantic_post_init__', '__pydantic_private__', '__pydantic_root_model__', '__pydantic_serializer__', '__pydantic_validator__', '__reduce__', '__reduce_ex__', '__replace__', '__repr__', '__repr_args__', '__repr_name__', '__repr_recursion__', '__repr_str__', '__rich_repr__', '__setattr__', '__setstate__', '__signature__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', '_calculate_keys', '_check_frozen', '_copy_and_set_values', '_get_value', '_image_to_base64', '_image_to_hexhash', '_iter', 'annotations', 'caption_text', 'captions', 'children', 'construct', 'content_layer', 'copy', 'dict', 'export_to_document_tokens', 'export_to_html', 'export_to_markdown', 'footnotes', 'from_orm', 'get_image', 'get_location_tokens', 'get_ref', 'image', 'json', 'label', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'parent', 'parse_file', 'parse_obj', 'parse_raw', 'prov', 'references', 'schema', 'schema_json', 'self_ref', 'update_forward_refs', 'validate']
+2025-02-21 15:28:53,270 - WARNING - Image 1 is None
+2025-02-21 15:28:53,270 - INFO - Found PictureItem at level 1
+2025-02-21 15:28:53,271 - INFO - Available methods: ['__abstractmethods__', '__annotations__', '__class__', '__class_getitem__', '__class_vars__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__fields__', '__fields_set__', '__format__', '__ge__', '__get_pydantic_core_schema__', '__get_pydantic_json_schema__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__pretty__', '__private_attributes__', '__pydantic_complete__', '__pydantic_computed_fields__', '__pydantic_core_schema__', '__pydantic_custom_init__', '__pydantic_decorators__', '__pydantic_extra__', '__pydantic_fields__', '__pydantic_fields_set__', '__pydantic_generic_metadata__', '__pydantic_init_subclass__', '__pydantic_parent_namespace__', '__pydantic_post_init__', '__pydantic_private__', '__pydantic_root_model__', '__pydantic_serializer__', '__pydantic_validator__', '__reduce__', '__reduce_ex__', '__replace__', '__repr__', '__repr_args__', '__repr_name__', '__repr_recursion__', '__repr_str__', '__rich_repr__', '__setattr__', '__setstate__', '__signature__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', '_calculate_keys', '_check_frozen', '_copy_and_set_values', '_get_value', '_image_to_base64', '_image_to_hexhash', '_iter', 'annotations', 'caption_text', 'captions', 'children', 'construct', 'content_layer', 'copy', 'dict', 'export_to_document_tokens', 'export_to_html', 'export_to_markdown', 'footnotes', 'from_orm', 'get_image', 'get_location_tokens', 'get_ref', 'image', 'json', 'label', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'parent', 'parse_file', 'parse_obj', 'parse_raw', 'prov', 'references', 'schema', 'schema_json', 'self_ref', 'update_forward_refs', 'validate']
+2025-02-21 15:28:53,271 - WARNING - Image 1 is None
+2025-02-21 15:28:53,271 - INFO - Found PictureItem at level 1
+2025-02-21 15:28:53,271 - INFO - Available methods: ['__abstractmethods__', '__annotations__', '__class__', '__class_getitem__', '__class_vars__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__fields__', '__fields_set__', '__format__', '__ge__', '__get_pydantic_core_schema__', '__get_pydantic_json_schema__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__pretty__', '__private_attributes__', '__pydantic_complete__', '__pydantic_computed_fields__', '__pydantic_core_schema__', '__pydantic_custom_init__', '__pydantic_decorators__', '__pydantic_extra__', '__pydantic_fields__', '__pydantic_fields_set__', '__pydantic_generic_metadata__', '__pydantic_init_subclass__', '__pydantic_parent_namespace__', '__pydantic_post_init__', '__pydantic_private__', '__pydantic_root_model__', '__pydantic_serializer__', '__pydantic_validator__', '__reduce__', '__reduce_ex__', '__replace__', '__repr__', '__repr_args__', '__repr_name__', '__repr_recursion__', '__repr_str__', '__rich_repr__', '__setattr__', '__setstate__', '__signature__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', '_calculate_keys', '_check_frozen', '_copy_and_set_values', '_get_value', '_image_to_base64', '_image_to_hexhash', '_iter', 'annotations', 'caption_text', 'captions', 'children', 'construct', 'content_layer', 'copy', 'dict', 'export_to_document_tokens', 'export_to_html', 'export_to_markdown', 'footnotes', 'from_orm', 'get_image', 'get_location_tokens', 'get_ref', 'image', 'json', 'label', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'parent', 'parse_file', 'parse_obj', 'parse_raw', 'prov', 'references', 'schema', 'schema_json', 'self_ref', 'update_forward_refs', 'validate']
+2025-02-21 15:28:53,271 - WARNING - Image 1 is None
+2025-02-21 15:28:53,271 - INFO - Found PictureItem at level 1
+2025-02-21 15:28:53,271 - INFO - Available methods: ['__abstractmethods__', '__annotations__', '__class__', '__class_getitem__', '__class_vars__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__fields__', '__fields_set__', '__format__', '__ge__', '__get_pydantic_core_schema__', '__get_pydantic_json_schema__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__pretty__', '__private_attributes__', '__pydantic_complete__', '__pydantic_computed_fields__', '__pydantic_core_schema__', '__pydantic_custom_init__', '__pydantic_decorators__', '__pydantic_extra__', '__pydantic_fields__', '__pydantic_fields_set__', '__pydantic_generic_metadata__', '__pydantic_init_subclass__', '__pydantic_parent_namespace__', '__pydantic_post_init__', '__pydantic_private__', '__pydantic_root_model__', '__pydantic_serializer__', '__pydantic_validator__', '__reduce__', '__reduce_ex__', '__replace__', '__repr__', '__repr_args__', '__repr_name__', '__repr_recursion__', '__repr_str__', '__rich_repr__', '__setattr__', '__setstate__', '__signature__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', '_calculate_keys', '_check_frozen', '_copy_and_set_values', '_get_value', '_image_to_base64', '_image_to_hexhash', '_iter', 'annotations', 'caption_text', 'captions', 'children', 'construct', 'content_layer', 'copy', 'dict', 'export_to_document_tokens', 'export_to_html', 'export_to_markdown', 'footnotes', 'from_orm', 'get_image', 'get_location_tokens', 'get_ref', 'image', 'json', 'label', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'parent', 'parse_file', 'parse_obj', 'parse_raw', 'prov', 'references', 'schema', 'schema_json', 'self_ref', 'update_forward_refs', 'validate']
+2025-02-21 15:28:53,271 - WARNING - Image 1 is None
+2025-02-21 15:28:53,271 - INFO - Found PictureItem at level 1
+2025-02-21 15:28:53,271 - INFO - Available methods: ['__abstractmethods__', '__annotations__', '__class__', '__class_getitem__', '__class_vars__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__fields__', '__fields_set__', '__format__', '__ge__', '__get_pydantic_core_schema__', '__get_pydantic_json_schema__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__pretty__', '__private_attributes__', '__pydantic_complete__', '__pydantic_computed_fields__', '__pydantic_core_schema__', '__pydantic_custom_init__', '__pydantic_decorators__', '__pydantic_extra__', '__pydantic_fields__', '__pydantic_fields_set__', '__pydantic_generic_metadata__', '__pydantic_init_subclass__', '__pydantic_parent_namespace__', '__pydantic_post_init__', '__pydantic_private__', '__pydantic_root_model__', '__pydantic_serializer__', '__pydantic_validator__', '__reduce__', '__reduce_ex__', '__replace__', '__repr__', '__repr_args__', '__repr_name__', '__repr_recursion__', '__repr_str__', '__rich_repr__', '__setattr__', '__setstate__', '__signature__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', '_calculate_keys', '_check_frozen', '_copy_and_set_values', '_get_value', '_image_to_base64', '_image_to_hexhash', '_iter', 'annotations', 'caption_text', 'captions', 'children', 'construct', 'content_layer', 'copy', 'dict', 'export_to_document_tokens', 'export_to_html', 'export_to_markdown', 'footnotes', 'from_orm', 'get_image', 'get_location_tokens', 'get_ref', 'image', 'json', 'label', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'parent', 'parse_file', 'parse_obj', 'parse_raw', 'prov', 'references', 'schema', 'schema_json', 'self_ref', 'update_forward_refs', 'validate']
+2025-02-21 15:28:53,271 - WARNING - Image 1 is None
+2025-02-21 15:28:53,271 - INFO - Found PictureItem at level 1
+2025-02-21 15:28:53,271 - INFO - Available methods: ['__abstractmethods__', '__annotations__', '__class__', '__class_getitem__', '__class_vars__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__fields__', '__fields_set__', '__format__', '__ge__', '__get_pydantic_core_schema__', '__get_pydantic_json_schema__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__pretty__', '__private_attributes__', '__pydantic_complete__', '__pydantic_computed_fields__', '__pydantic_core_schema__', '__pydantic_custom_init__', '__pydantic_decorators__', '__pydantic_extra__', '__pydantic_fields__', '__pydantic_fields_set__', '__pydantic_generic_metadata__', '__pydantic_init_subclass__', '__pydantic_parent_namespace__', '__pydantic_post_init__', '__pydantic_private__', '__pydantic_root_model__', '__pydantic_serializer__', '__pydantic_validator__', '__reduce__', '__reduce_ex__', '__replace__', '__repr__', '__repr_args__', '__repr_name__', '__repr_recursion__', '__repr_str__', '__rich_repr__', '__setattr__', '__setstate__', '__signature__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', '_calculate_keys', '_check_frozen', '_copy_and_set_values', '_get_value', '_image_to_base64', '_image_to_hexhash', '_iter', 'annotations', 'caption_text', 'captions', 'children', 'construct', 'content_layer', 'copy', 'dict', 'export_to_document_tokens', 'export_to_html', 'export_to_markdown', 'footnotes', 'from_orm', 'get_image', 'get_location_tokens', 'get_ref', 'image', 'json', 'label', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'parent', 'parse_file', 'parse_obj', 'parse_raw', 'prov', 'references', 'schema', 'schema_json', 'self_ref', 'update_forward_refs', 'validate']
+2025-02-21 15:28:53,271 - WARNING - Image 1 is None
+2025-02-21 15:28:53,271 - INFO - Found PictureItem at level 1
+2025-02-21 15:28:53,271 - INFO - Available methods: ['__abstractmethods__', '__annotations__', '__class__', '__class_getitem__', '__class_vars__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__fields__', '__fields_set__', '__format__', '__ge__', '__get_pydantic_core_schema__', '__get_pydantic_json_schema__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__pretty__', '__private_attributes__', '__pydantic_complete__', '__pydantic_computed_fields__', '__pydantic_core_schema__', '__pydantic_custom_init__', '__pydantic_decorators__', '__pydantic_extra__', '__pydantic_fields__', '__pydantic_fields_set__', '__pydantic_generic_metadata__', '__pydantic_init_subclass__', '__pydantic_parent_namespace__', '__pydantic_post_init__', '__pydantic_private__', '__pydantic_root_model__', '__pydantic_serializer__', '__pydantic_validator__', '__reduce__', '__reduce_ex__', '__replace__', '__repr__', '__repr_args__', '__repr_name__', '__repr_recursion__', '__repr_str__', '__rich_repr__', '__setattr__', '__setstate__', '__signature__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', '_calculate_keys', '_check_frozen', '_copy_and_set_values', '_get_value', '_image_to_base64', '_image_to_hexhash', '_iter', 'annotations', 'caption_text', 'captions', 'children', 'construct', 'content_layer', 'copy', 'dict', 'export_to_document_tokens', 'export_to_html', 'export_to_markdown', 'footnotes', 'from_orm', 'get_image', 'get_location_tokens', 'get_ref', 'image', 'json', 'label', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'parent', 'parse_file', 'parse_obj', 'parse_raw', 'prov', 'references', 'schema', 'schema_json', 'self_ref', 'update_forward_refs', 'validate']
+2025-02-21 15:28:53,271 - WARNING - Image 1 is None
+2025-02-21 15:28:53,271 - INFO - Found PictureItem at level 1
+2025-02-21 15:28:53,271 - INFO - Available methods: ['__abstractmethods__', '__annotations__', '__class__', '__class_getitem__', '__class_vars__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__fields__', '__fields_set__', '__format__', '__ge__', '__get_pydantic_core_schema__', '__get_pydantic_json_schema__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__pretty__', '__private_attributes__', '__pydantic_complete__', '__pydantic_computed_fields__', '__pydantic_core_schema__', '__pydantic_custom_init__', '__pydantic_decorators__', '__pydantic_extra__', '__pydantic_fields__', '__pydantic_fields_set__', '__pydantic_generic_metadata__', '__pydantic_init_subclass__', '__pydantic_parent_namespace__', '__pydantic_post_init__', '__pydantic_private__', '__pydantic_root_model__', '__pydantic_serializer__', '__pydantic_validator__', '__reduce__', '__reduce_ex__', '__replace__', '__repr__', '__repr_args__', '__repr_name__', '__repr_recursion__', '__repr_str__', '__rich_repr__', '__setattr__', '__setstate__', '__signature__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', '_calculate_keys', '_check_frozen', '_copy_and_set_values', '_get_value', '_image_to_base64', '_image_to_hexhash', '_iter', 'annotations', 'caption_text', 'captions', 'children', 'construct', 'content_layer', 'copy', 'dict', 'export_to_document_tokens', 'export_to_html', 'export_to_markdown', 'footnotes', 'from_orm', 'get_image', 'get_location_tokens', 'get_ref', 'image', 'json', 'label', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'parent', 'parse_file', 'parse_obj', 'parse_raw', 'prov', 'references', 'schema', 'schema_json', 'self_ref', 'update_forward_refs', 'validate']
+2025-02-21 15:28:53,271 - WARNING - Image 1 is None
+2025-02-21 15:28:53,271 - INFO - Found PictureItem at level 1
+2025-02-21 15:28:53,271 - INFO - Available methods: ['__abstractmethods__', '__annotations__', '__class__', '__class_getitem__', '__class_vars__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__fields__', '__fields_set__', '__format__', '__ge__', '__get_pydantic_core_schema__', '__get_pydantic_json_schema__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__pretty__', '__private_attributes__', '__pydantic_complete__', '__pydantic_computed_fields__', '__pydantic_core_schema__', '__pydantic_custom_init__', '__pydantic_decorators__', '__pydantic_extra__', '__pydantic_fields__', '__pydantic_fields_set__', '__pydantic_generic_metadata__', '__pydantic_init_subclass__', '__pydantic_parent_namespace__', '__pydantic_post_init__', '__pydantic_private__', '__pydantic_root_model__', '__pydantic_serializer__', '__pydantic_validator__', '__reduce__', '__reduce_ex__', '__replace__', '__repr__', '__repr_args__', '__repr_name__', '__repr_recursion__', '__repr_str__', '__rich_repr__', '__setattr__', '__setstate__', '__signature__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', '_calculate_keys', '_check_frozen', '_copy_and_set_values', '_get_value', '_image_to_base64', '_image_to_hexhash', '_iter', 'annotations', 'caption_text', 'captions', 'children', 'construct', 'content_layer', 'copy', 'dict', 'export_to_document_tokens', 'export_to_html', 'export_to_markdown', 'footnotes', 'from_orm', 'get_image', 'get_location_tokens', 'get_ref', 'image', 'json', 'label', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'parent', 'parse_file', 'parse_obj', 'parse_raw', 'prov', 'references', 'schema', 'schema_json', 'self_ref', 'update_forward_refs', 'validate']
+2025-02-21 15:28:53,271 - WARNING - Image 1 is None
+2025-02-21 15:28:53,271 - INFO - Found PictureItem at level 1
+2025-02-21 15:28:53,271 - INFO - Available methods: ['__abstractmethods__', '__annotations__', '__class__', '__class_getitem__', '__class_vars__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__fields__', '__fields_set__', '__format__', '__ge__', '__get_pydantic_core_schema__', '__get_pydantic_json_schema__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__pretty__', '__private_attributes__', '__pydantic_complete__', '__pydantic_computed_fields__', '__pydantic_core_schema__', '__pydantic_custom_init__', '__pydantic_decorators__', '__pydantic_extra__', '__pydantic_fields__', '__pydantic_fields_set__', '__pydantic_generic_metadata__', '__pydantic_init_subclass__', '__pydantic_parent_namespace__', '__pydantic_post_init__', '__pydantic_private__', '__pydantic_root_model__', '__pydantic_serializer__', '__pydantic_validator__', '__reduce__', '__reduce_ex__', '__replace__', '__repr__', '__repr_args__', '__repr_name__', '__repr_recursion__', '__repr_str__', '__rich_repr__', '__setattr__', '__setstate__', '__signature__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', '_calculate_keys', '_check_frozen', '_copy_and_set_values', '_get_value', '_image_to_base64', '_image_to_hexhash', '_iter', 'annotations', 'caption_text', 'captions', 'children', 'construct', 'content_layer', 'copy', 'dict', 'export_to_document_tokens', 'export_to_html', 'export_to_markdown', 'footnotes', 'from_orm', 'get_image', 'get_location_tokens', 'get_ref', 'image', 'json', 'label', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'parent', 'parse_file', 'parse_obj', 'parse_raw', 'prov', 'references', 'schema', 'schema_json', 'self_ref', 'update_forward_refs', 'validate']
+2025-02-21 15:28:53,271 - WARNING - Image 1 is None
+2025-02-21 15:28:53,271 - INFO - Found PictureItem at level 1
+2025-02-21 15:28:53,271 - INFO - Available methods: ['__abstractmethods__', '__annotations__', '__class__', '__class_getitem__', '__class_vars__', '__copy__', '__deepcopy__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__fields__', '__fields_set__', '__format__', '__ge__', '__get_pydantic_core_schema__', '__get_pydantic_json_schema__', '__getattr__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__pretty__', '__private_attributes__', '__pydantic_complete__', '__pydantic_computed_fields__', '__pydantic_core_schema__', '__pydantic_custom_init__', '__pydantic_decorators__', '__pydantic_extra__', '__pydantic_fields__', '__pydantic_fields_set__', '__pydantic_generic_metadata__', '__pydantic_init_subclass__', '__pydantic_parent_namespace__', '__pydantic_post_init__', '__pydantic_private__', '__pydantic_root_model__', '__pydantic_serializer__', '__pydantic_validator__', '__reduce__', '__reduce_ex__', '__replace__', '__repr__', '__repr_args__', '__repr_name__', '__repr_recursion__', '__repr_str__', '__rich_repr__', '__setattr__', '__setstate__', '__signature__', '__sizeof__', '__slots__', '__str__', '__subclasshook__', '__weakref__', '_abc_impl', '_calculate_keys', '_check_frozen', '_copy_and_set_values', '_get_value', '_image_to_base64', '_image_to_hexhash', '_iter', 'annotations', 'caption_text', 'captions', 'children', 'construct', 'content_layer', 'copy', 'dict', 'export_to_document_tokens', 'export_to_html', 'export_to_markdown', 'footnotes', 'from_orm', 'get_image', 'get_location_tokens', 'get_ref', 'image', 'json', 'label', 'model_computed_fields', 'model_config', 'model_construct', 'model_copy', 'model_dump', 'model_dump_json', 'model_extra', 'model_fields', 'model_fields_set', 'model_json_schema', 'model_parametrized_name', 'model_post_init', 'model_rebuild', 'model_validate', 'model_validate_json', 'model_validate_strings', 'parent', 'parse_file', 'parse_obj', 'parse_raw', 'prov', 'references', 'schema', 'schema_json', 'self_ref', 'update_forward_refs', 'validate']
+2025-02-21 15:28:53,271 - WARNING - Image 1 is None
+2025-02-21 15:28:53,271 - INFO - Successfully extracted 0 images
+2025-02-21 15:28:53,276 - WARNING - No images to save
+2025-02-21 15:30:23,736 - INFO - Processing paper.pdf...
+2025-02-21 15:30:23,745 - INFO - Going to convert document batch...
+2025-02-21 15:30:23,745 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 15:30:25,309 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 15:30:26,333 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 15:30:26,602 - INFO - Processing document paper.pdf
+2025-02-21 15:30:38,670 - INFO - Finished converting document paper.pdf in 14.93 sec.
+2025-02-21 15:30:38,671 - INFO - Found PictureItem at level 1
+2025-02-21 15:30:38,671 - INFO - Image data available: False
+2025-02-21 15:30:38,671 - INFO - Caption text found: <bound method FloatingItem.caption_text of PictureItem(self_ref='#/pictures/0', parent=RefItem(cref='#/body'), children=[], content_layer=<ContentLayer.BODY: 'body'>, label=<DocItemLabel.PICTURE: 'picture'>, prov=[ProvenanceItem(page_no=7, bbox=BoundingBox(l=92.25675964355469, t=702.6830444335938, r=517.379150390625, b=496.8428039550781, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 67))], captions=[RefItem(cref='#/texts/96')], references=[], footnotes=[], image=None, annotations=[])>
+2025-02-21 15:30:38,671 - INFO - Found PictureItem at level 1
+2025-02-21 15:30:38,671 - INFO - Image data available: False
+2025-02-21 15:30:38,671 - INFO - Caption text found: <bound method FloatingItem.caption_text of PictureItem(self_ref='#/pictures/1', parent=RefItem(cref='#/body'), children=[], content_layer=<ContentLayer.BODY: 'body'>, label=<DocItemLabel.PICTURE: 'picture'>, prov=[ProvenanceItem(page_no=8, bbox=BoundingBox(l=125.79600524902344, t=697.3800048828125, r=486.8546447753906, b=536.5084228515625, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 322))], captions=[RefItem(cref='#/texts/105')], references=[], footnotes=[], image=None, annotations=[])>
+2025-02-21 15:30:38,671 - INFO - Found PictureItem at level 1
+2025-02-21 15:30:38,671 - INFO - Image data available: False
+2025-02-21 15:30:38,671 - INFO - Caption text found: <bound method FloatingItem.caption_text of PictureItem(self_ref='#/pictures/2', parent=RefItem(cref='#/body'), children=[], content_layer=<ContentLayer.BODY: 'body'>, label=<DocItemLabel.PICTURE: 'picture'>, prov=[ProvenanceItem(page_no=8, bbox=BoundingBox(l=141.69923400878906, t=420.77777099609375, r=472.2151184082031, b=274.5234375, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 54))], captions=[RefItem(cref='#/texts/106')], references=[], footnotes=[], image=None, annotations=[])>
+2025-02-21 15:30:38,671 - INFO - Found PictureItem at level 1
+2025-02-21 15:30:38,671 - INFO - Image data available: False
+2025-02-21 15:30:38,672 - INFO - Caption text found: <bound method FloatingItem.caption_text of PictureItem(self_ref='#/pictures/3', parent=RefItem(cref='#/body'), children=[], content_layer=<ContentLayer.BODY: 'body'>, label=<DocItemLabel.PICTURE: 'picture'>, prov=[ProvenanceItem(page_no=9, bbox=BoundingBox(l=205.5955352783203, t=569.5191650390625, r=403.3889465332031, b=489.49920654296875, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 34))], captions=[RefItem(cref='#/texts/116')], references=[], footnotes=[], image=None, annotations=[])>
+2025-02-21 15:30:38,672 - INFO - Found PictureItem at level 1
+2025-02-21 15:30:38,672 - INFO - Image data available: False
+2025-02-21 15:30:38,672 - INFO - Caption text found: <bound method FloatingItem.caption_text of PictureItem(self_ref='#/pictures/4', parent=RefItem(cref='#/body'), children=[], content_layer=<ContentLayer.BODY: 'body'>, label=<DocItemLabel.PICTURE: 'picture'>, prov=[ProvenanceItem(page_no=11, bbox=BoundingBox(l=133.17938232421875, t=702.1439819335938, r=479.58245849609375, b=612.77783203125, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 70))], captions=[RefItem(cref='#/texts/134')], references=[], footnotes=[], image=None, annotations=[])>
+2025-02-21 15:30:38,672 - INFO - Found PictureItem at level 1
+2025-02-21 15:30:38,672 - INFO - Image data available: False
+2025-02-21 15:30:38,672 - INFO - Caption text found: <bound method FloatingItem.caption_text of PictureItem(self_ref='#/pictures/5', parent=RefItem(cref='#/body'), children=[], content_layer=<ContentLayer.BODY: 'body'>, label=<DocItemLabel.PICTURE: 'picture'>, prov=[ProvenanceItem(page_no=12, bbox=BoundingBox(l=156.18930053710938, t=350.57745361328125, r=479.50592041015625, b=236.890625, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 78))], captions=[RefItem(cref='#/texts/148')], references=[], footnotes=[], image=None, annotations=[])>
+2025-02-21 15:30:38,672 - INFO - Found PictureItem at level 1
+2025-02-21 15:30:38,672 - INFO - Image data available: False
+2025-02-21 15:30:38,672 - INFO - Caption text found: <bound method FloatingItem.caption_text of PictureItem(self_ref='#/pictures/6', parent=RefItem(cref='#/body'), children=[], content_layer=<ContentLayer.BODY: 'body'>, label=<DocItemLabel.PICTURE: 'picture'>, prov=[ProvenanceItem(page_no=14, bbox=BoundingBox(l=99.2056884765625, t=336.603271484375, r=514.1878662109375, b=205.26336669921875, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 89))], captions=[RefItem(cref='#/texts/165')], references=[], footnotes=[], image=None, annotations=[])>
+2025-02-21 15:30:38,672 - INFO - Found PictureItem at level 1
+2025-02-21 15:30:38,672 - INFO - Image data available: False
+2025-02-21 15:30:38,672 - INFO - Caption text found: <bound method FloatingItem.caption_text of PictureItem(self_ref='#/pictures/7', parent=RefItem(cref='#/body'), children=[], content_layer=<ContentLayer.BODY: 'body'>, label=<DocItemLabel.PICTURE: 'picture'>, prov=[ProvenanceItem(page_no=15, bbox=BoundingBox(l=109.04290008544922, t=601.8695068359375, r=505.93896484375, b=364.1478271484375, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 376))], captions=[RefItem(cref='#/texts/171')], references=[], footnotes=[], image=None, annotations=[])>
+2025-02-21 15:30:38,672 - INFO - Found PictureItem at level 1
+2025-02-21 15:30:38,672 - INFO - Image data available: False
+2025-02-21 15:30:38,672 - INFO - Caption text found: <bound method FloatingItem.caption_text of PictureItem(self_ref='#/pictures/8', parent=RefItem(cref='#/body'), children=[], content_layer=<ContentLayer.BODY: 'body'>, label=<DocItemLabel.PICTURE: 'picture'>, prov=[ProvenanceItem(page_no=16, bbox=BoundingBox(l=133.97779846191406, t=659.3975219726562, r=476.8298034667969, b=535.10986328125, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 83))], captions=[RefItem(cref='#/texts/177')], references=[], footnotes=[], image=None, annotations=[])>
+2025-02-21 15:30:38,672 - INFO - Found PictureItem at level 1
+2025-02-21 15:30:38,672 - INFO - Image data available: False
+2025-02-21 15:30:38,672 - INFO - Caption text found: <bound method FloatingItem.caption_text of PictureItem(self_ref='#/pictures/9', parent=RefItem(cref='#/body'), children=[], content_layer=<ContentLayer.BODY: 'body'>, label=<DocItemLabel.PICTURE: 'picture'>, prov=[ProvenanceItem(page_no=17, bbox=BoundingBox(l=93.7558822631836, t=698.44482421875, r=517.5100708007812, b=384.23736572265625, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 247))], captions=[RefItem(cref='#/texts/186')], references=[], footnotes=[], image=None, annotations=[])>
+2025-02-21 15:30:38,672 - INFO - Found PictureItem at level 1
+2025-02-21 15:30:38,672 - INFO - Image data available: False
+2025-02-21 15:30:38,673 - INFO - Caption text found: <bound method FloatingItem.caption_text of PictureItem(self_ref='#/pictures/10', parent=RefItem(cref='#/body'), children=[], content_layer=<ContentLayer.BODY: 'body'>, label=<DocItemLabel.PICTURE: 'picture'>, prov=[ProvenanceItem(page_no=18, bbox=BoundingBox(l=103.20010375976562, t=659.4940185546875, r=508.08837890625, b=512.60009765625, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 177))], captions=[RefItem(cref='#/texts/192')], references=[], footnotes=[], image=None, annotations=[])>
+2025-02-21 15:30:38,673 - INFO - Found PictureItem at level 1
+2025-02-21 15:30:38,673 - INFO - Image data available: False
+2025-02-21 15:30:38,673 - INFO - Caption text found: <bound method FloatingItem.caption_text of PictureItem(self_ref='#/pictures/11', parent=RefItem(cref='#/body'), children=[], content_layer=<ContentLayer.BODY: 'body'>, label=<DocItemLabel.PICTURE: 'picture'>, prov=[ProvenanceItem(page_no=19, bbox=BoundingBox(l=110.1358413696289, t=661.9185791015625, r=502.79547119140625, b=566.3519287109375, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 113))], captions=[RefItem(cref='#/texts/203')], references=[], footnotes=[], image=None, annotations=[])>
+2025-02-21 15:30:38,673 - INFO - Found PictureItem at level 1
+2025-02-21 15:30:38,673 - INFO - Image data available: False
+2025-02-21 15:30:38,673 - INFO - Caption text found: <bound method FloatingItem.caption_text of PictureItem(self_ref='#/pictures/12', parent=RefItem(cref='#/body'), children=[], content_layer=<ContentLayer.BODY: 'body'>, label=<DocItemLabel.PICTURE: 'picture'>, prov=[ProvenanceItem(page_no=20, bbox=BoundingBox(l=100.02603912353516, t=703.1127319335938, r=510.6840515136719, b=533.8587646484375, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 80))], captions=[RefItem(cref='#/texts/213')], references=[], footnotes=[], image=None, annotations=[])>
+2025-02-21 15:30:38,673 - INFO - Found PictureItem at level 1
+2025-02-21 15:30:38,673 - INFO - Image data available: False
+2025-02-21 15:30:38,673 - INFO - Caption text found: <bound method FloatingItem.caption_text of PictureItem(self_ref='#/pictures/13', parent=RefItem(cref='#/body'), children=[], content_layer=<ContentLayer.BODY: 'body'>, label=<DocItemLabel.PICTURE: 'picture'>, prov=[ProvenanceItem(page_no=21, bbox=BoundingBox(l=134.0532684326172, t=699.1500244140625, r=477.53497314453125, b=429.2291564941406, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 75))], captions=[RefItem(cref='#/texts/223')], references=[], footnotes=[], image=None, annotations=[])>
+2025-02-21 15:30:38,673 - INFO - Found PictureItem at level 1
+2025-02-21 15:30:38,673 - INFO - Image data available: False
+2025-02-21 15:30:38,673 - INFO - Caption text found: <bound method FloatingItem.caption_text of PictureItem(self_ref='#/pictures/14', parent=RefItem(cref='#/body'), children=[], content_layer=<ContentLayer.BODY: 'body'>, label=<DocItemLabel.PICTURE: 'picture'>, prov=[ProvenanceItem(page_no=22, bbox=BoundingBox(l=149.57395935058594, t=685.1505737304688, r=475.9926452636719, b=507.44854736328125, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 305))], captions=[RefItem(cref='#/texts/229')], references=[], footnotes=[], image=None, annotations=[])>
+2025-02-21 15:30:38,673 - INFO - Found PictureItem at level 1
+2025-02-21 15:30:38,673 - INFO - Image data available: False
+2025-02-21 15:30:38,673 - INFO - Caption text found: <bound method FloatingItem.caption_text of PictureItem(self_ref='#/pictures/15', parent=RefItem(cref='#/body'), children=[], content_layer=<ContentLayer.BODY: 'body'>, label=<DocItemLabel.PICTURE: 'picture'>, prov=[ProvenanceItem(page_no=23, bbox=BoundingBox(l=119.70626831054688, t=693.0281982421875, r=489.0946350097656, b=541.2703247070312, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 0))], captions=[], references=[], footnotes=[], image=None, annotations=[])>
+2025-02-21 15:30:38,673 - INFO - Found PictureItem at level 1
+2025-02-21 15:30:38,673 - INFO - Image data available: False
+2025-02-21 15:30:38,673 - INFO - Caption text found: <bound method FloatingItem.caption_text of PictureItem(self_ref='#/pictures/16', parent=RefItem(cref='#/body'), children=[], content_layer=<ContentLayer.BODY: 'body'>, label=<DocItemLabel.PICTURE: 'picture'>, prov=[ProvenanceItem(page_no=23, bbox=BoundingBox(l=119.84892272949219, t=531.640625, r=489.1426696777344, b=380.4348449707031, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 0))], captions=[], references=[], footnotes=[], image=None, annotations=[])>
+2025-02-21 15:30:38,673 - INFO - Found PictureItem at level 1
+2025-02-21 15:30:38,673 - INFO - Image data available: False
+2025-02-21 15:30:38,673 - INFO - Caption text found: <bound method FloatingItem.caption_text of PictureItem(self_ref='#/pictures/17', parent=RefItem(cref='#/body'), children=[], content_layer=<ContentLayer.BODY: 'body'>, label=<DocItemLabel.PICTURE: 'picture'>, prov=[ProvenanceItem(page_no=23, bbox=BoundingBox(l=119.80317687988281, t=369.5871276855469, r=488.9112548828125, b=218.43768310546875, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 459))], captions=[RefItem(cref='#/texts/235')], references=[], footnotes=[], image=None, annotations=[])>
+2025-02-21 15:30:38,674 - INFO - Found PictureItem at level 1
+2025-02-21 15:30:38,674 - INFO - Image data available: False
+2025-02-21 15:30:38,674 - INFO - Caption text found: <bound method FloatingItem.caption_text of PictureItem(self_ref='#/pictures/18', parent=RefItem(cref='#/body'), children=[RefItem(cref='#/texts/306'), RefItem(cref='#/texts/307'), RefItem(cref='#/texts/308'), RefItem(cref='#/texts/309'), RefItem(cref='#/texts/310'), RefItem(cref='#/texts/311'), RefItem(cref='#/texts/312'), RefItem(cref='#/texts/313')], content_layer=<ContentLayer.BODY: 'body'>, label=<DocItemLabel.PICTURE: 'picture'>, prov=[ProvenanceItem(page_no=29, bbox=BoundingBox(l=95.00711822509766, t=643.9479370117188, r=516.4777221679688, b=287.1340026855469, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 378))], captions=[RefItem(cref='#/texts/305')], references=[], footnotes=[], image=None, annotations=[])>
+2025-02-21 15:30:38,674 - INFO - Found PictureItem at level 1
+2025-02-21 15:30:38,674 - INFO - Image data available: False
+2025-02-21 15:30:38,674 - INFO - Caption text found: <bound method FloatingItem.caption_text of PictureItem(self_ref='#/pictures/19', parent=RefItem(cref='#/body'), children=[RefItem(cref='#/texts/317'), RefItem(cref='#/texts/318')], content_layer=<ContentLayer.BODY: 'body'>, label=<DocItemLabel.PICTURE: 'picture'>, prov=[ProvenanceItem(page_no=30, bbox=BoundingBox(l=150.91802978515625, t=695.076416015625, r=461.6771240234375, b=225.5904541015625, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 353))], captions=[RefItem(cref='#/texts/316')], references=[], footnotes=[], image=None, annotations=[])>
+2025-02-21 15:30:38,674 - INFO - Found PictureItem at level 1
+2025-02-21 15:30:38,674 - INFO - Image data available: False
+2025-02-21 15:30:38,674 - INFO - Caption text found: <bound method FloatingItem.caption_text of PictureItem(self_ref='#/pictures/20', parent=RefItem(cref='#/body'), children=[RefItem(cref='#/texts/325'), RefItem(cref='#/texts/326'), RefItem(cref='#/texts/327'), RefItem(cref='#/texts/328'), RefItem(cref='#/texts/329'), RefItem(cref='#/texts/330'), RefItem(cref='#/texts/331'), RefItem(cref='#/texts/332')], content_layer=<ContentLayer.BODY: 'body'>, label=<DocItemLabel.PICTURE: 'picture'>, prov=[ProvenanceItem(page_no=31, bbox=BoundingBox(l=181.5299530029297, t=486.64788818359375, r=427.93255615234375, b=304.2724914550781, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 109))], captions=[RefItem(cref='#/texts/324')], references=[], footnotes=[], image=None, annotations=[])>
+2025-02-21 15:30:38,674 - INFO - Successfully extracted 0 images
+2025-02-21 15:30:38,679 - WARNING - No images to save
+2025-02-21 15:33:14,193 - INFO - Processing paper.pdf...
+2025-02-21 15:33:14,202 - INFO - Going to convert document batch...
+2025-02-21 15:33:14,203 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 15:33:15,771 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 15:33:16,743 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 15:33:17,003 - INFO - Processing document paper.pdf
+2025-02-21 15:33:29,052 - INFO - Finished converting document paper.pdf in 14.86 sec.
+2025-02-21 15:33:29,052 - INFO - Processing PictureItem 1
+2025-02-21 15:33:29,053 - ERROR - Error getting text from ref: 'DoclingDocument' object has no attribute 'get_text_by_id'
+2025-02-21 15:33:29,053 - INFO - Image location: Page 7, Coordinates: 92.26, 702.68, 517.38, 496.84
+2025-02-21 15:33:29,053 - INFO - Found image 1 with caption: No caption found
+2025-02-21 15:33:29,053 - INFO - Processing PictureItem 2
+2025-02-21 15:33:29,053 - ERROR - Error getting text from ref: 'DoclingDocument' object has no attribute 'get_text_by_id'
+2025-02-21 15:33:29,053 - INFO - Image location: Page 8, Coordinates: 125.80, 697.38, 486.85, 536.51
+2025-02-21 15:33:29,053 - INFO - Found image 2 with caption: No caption found
+2025-02-21 15:33:29,053 - INFO - Processing PictureItem 3
+2025-02-21 15:33:29,053 - ERROR - Error getting text from ref: 'DoclingDocument' object has no attribute 'get_text_by_id'
+2025-02-21 15:33:29,053 - INFO - Image location: Page 8, Coordinates: 141.70, 420.78, 472.22, 274.52
+2025-02-21 15:33:29,053 - INFO - Found image 3 with caption: No caption found
+2025-02-21 15:33:29,053 - INFO - Processing PictureItem 4
+2025-02-21 15:33:29,053 - ERROR - Error getting text from ref: 'DoclingDocument' object has no attribute 'get_text_by_id'
+2025-02-21 15:33:29,053 - INFO - Image location: Page 9, Coordinates: 205.60, 569.52, 403.39, 489.50
+2025-02-21 15:33:29,053 - INFO - Found image 4 with caption: No caption found
+2025-02-21 15:33:29,053 - INFO - Processing PictureItem 5
+2025-02-21 15:33:29,053 - ERROR - Error getting text from ref: 'DoclingDocument' object has no attribute 'get_text_by_id'
+2025-02-21 15:33:29,053 - INFO - Image location: Page 11, Coordinates: 133.18, 702.14, 479.58, 612.78
+2025-02-21 15:33:29,053 - INFO - Found image 5 with caption: No caption found
+2025-02-21 15:33:29,053 - INFO - Processing PictureItem 6
+2025-02-21 15:33:29,053 - ERROR - Error getting text from ref: 'DoclingDocument' object has no attribute 'get_text_by_id'
+2025-02-21 15:33:29,053 - INFO - Image location: Page 12, Coordinates: 156.19, 350.58, 479.51, 236.89
+2025-02-21 15:33:29,053 - INFO - Found image 6 with caption: No caption found
+2025-02-21 15:33:29,054 - INFO - Processing PictureItem 7
+2025-02-21 15:33:29,054 - ERROR - Error getting text from ref: 'DoclingDocument' object has no attribute 'get_text_by_id'
+2025-02-21 15:33:29,054 - INFO - Image location: Page 14, Coordinates: 99.21, 336.60, 514.19, 205.26
+2025-02-21 15:33:29,054 - INFO - Found image 7 with caption: No caption found
+2025-02-21 15:33:29,054 - INFO - Processing PictureItem 8
+2025-02-21 15:33:29,054 - ERROR - Error getting text from ref: 'DoclingDocument' object has no attribute 'get_text_by_id'
+2025-02-21 15:33:29,054 - INFO - Image location: Page 15, Coordinates: 109.04, 601.87, 505.94, 364.15
+2025-02-21 15:33:29,054 - INFO - Found image 8 with caption: No caption found
+2025-02-21 15:33:29,054 - INFO - Processing PictureItem 9
+2025-02-21 15:33:29,054 - ERROR - Error getting text from ref: 'DoclingDocument' object has no attribute 'get_text_by_id'
+2025-02-21 15:33:29,054 - INFO - Image location: Page 16, Coordinates: 133.98, 659.40, 476.83, 535.11
+2025-02-21 15:33:29,054 - INFO - Found image 9 with caption: No caption found
+2025-02-21 15:33:29,054 - INFO - Processing PictureItem 10
+2025-02-21 15:33:29,054 - ERROR - Error getting text from ref: 'DoclingDocument' object has no attribute 'get_text_by_id'
+2025-02-21 15:33:29,054 - INFO - Image location: Page 17, Coordinates: 93.76, 698.44, 517.51, 384.24
+2025-02-21 15:33:29,054 - INFO - Found image 10 with caption: No caption found
+2025-02-21 15:33:29,054 - INFO - Processing PictureItem 11
+2025-02-21 15:33:29,054 - ERROR - Error getting text from ref: 'DoclingDocument' object has no attribute 'get_text_by_id'
+2025-02-21 15:33:29,054 - INFO - Image location: Page 18, Coordinates: 103.20, 659.49, 508.09, 512.60
+2025-02-21 15:33:29,054 - INFO - Found image 11 with caption: No caption found
+2025-02-21 15:33:29,054 - INFO - Processing PictureItem 12
+2025-02-21 15:33:29,054 - ERROR - Error getting text from ref: 'DoclingDocument' object has no attribute 'get_text_by_id'
+2025-02-21 15:33:29,054 - INFO - Image location: Page 19, Coordinates: 110.14, 661.92, 502.80, 566.35
+2025-02-21 15:33:29,054 - INFO - Found image 12 with caption: No caption found
+2025-02-21 15:33:29,054 - INFO - Processing PictureItem 13
+2025-02-21 15:33:29,054 - ERROR - Error getting text from ref: 'DoclingDocument' object has no attribute 'get_text_by_id'
+2025-02-21 15:33:29,054 - INFO - Image location: Page 20, Coordinates: 100.03, 703.11, 510.68, 533.86
+2025-02-21 15:33:29,054 - INFO - Found image 13 with caption: No caption found
+2025-02-21 15:33:29,055 - INFO - Processing PictureItem 14
+2025-02-21 15:33:29,055 - ERROR - Error getting text from ref: 'DoclingDocument' object has no attribute 'get_text_by_id'
+2025-02-21 15:33:29,055 - INFO - Image location: Page 21, Coordinates: 134.05, 699.15, 477.53, 429.23
+2025-02-21 15:33:29,055 - INFO - Found image 14 with caption: No caption found
+2025-02-21 15:33:29,055 - INFO - Processing PictureItem 15
+2025-02-21 15:33:29,055 - ERROR - Error getting text from ref: 'DoclingDocument' object has no attribute 'get_text_by_id'
+2025-02-21 15:33:29,055 - INFO - Image location: Page 22, Coordinates: 149.57, 685.15, 475.99, 507.45
+2025-02-21 15:33:29,055 - INFO - Found image 15 with caption: No caption found
+2025-02-21 15:33:29,055 - INFO - Processing PictureItem 16
+2025-02-21 15:33:29,055 - INFO - Image location: Page 23, Coordinates: 119.71, 693.03, 489.09, 541.27
+2025-02-21 15:33:29,055 - INFO - Found image 16 with caption: No caption found
+2025-02-21 15:33:29,055 - INFO - Processing PictureItem 17
+2025-02-21 15:33:29,055 - INFO - Image location: Page 23, Coordinates: 119.85, 531.64, 489.14, 380.43
+2025-02-21 15:33:29,055 - INFO - Found image 17 with caption: No caption found
+2025-02-21 15:33:29,055 - INFO - Processing PictureItem 18
+2025-02-21 15:33:29,055 - ERROR - Error getting text from ref: 'DoclingDocument' object has no attribute 'get_text_by_id'
+2025-02-21 15:33:29,055 - INFO - Image location: Page 23, Coordinates: 119.80, 369.59, 488.91, 218.44
+2025-02-21 15:33:29,055 - INFO - Found image 18 with caption: No caption found
+2025-02-21 15:33:29,055 - INFO - Processing PictureItem 19
+2025-02-21 15:33:29,055 - ERROR - Error getting text from ref: 'DoclingDocument' object has no attribute 'get_text_by_id'
+2025-02-21 15:33:29,055 - INFO - Image location: Page 29, Coordinates: 95.01, 643.95, 516.48, 287.13
+2025-02-21 15:33:29,055 - INFO - Found image 19 with caption: No caption found
+2025-02-21 15:33:29,055 - INFO - Processing PictureItem 20
+2025-02-21 15:33:29,055 - ERROR - Error getting text from ref: 'DoclingDocument' object has no attribute 'get_text_by_id'
+2025-02-21 15:33:29,055 - INFO - Image location: Page 30, Coordinates: 150.92, 695.08, 461.68, 225.59
+2025-02-21 15:33:29,055 - INFO - Found image 20 with caption: No caption found
+2025-02-21 15:33:29,055 - INFO - Processing PictureItem 21
+2025-02-21 15:33:29,056 - ERROR - Error getting text from ref: 'DoclingDocument' object has no attribute 'get_text_by_id'
+2025-02-21 15:33:29,056 - INFO - Image location: Page 31, Coordinates: 181.53, 486.65, 427.93, 304.27
+2025-02-21 15:33:29,056 - INFO - Found image 21 with caption: No caption found
+2025-02-21 15:33:29,056 - INFO - Found 21 images with captions
+2025-02-21 15:33:29,061 - INFO - Output saved to ./output/final_output.txt
+2025-02-21 15:36:31,645 - INFO - Processing paper.pdf...
+2025-02-21 15:36:31,654 - INFO - Going to convert document batch...
+2025-02-21 15:36:31,655 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 15:36:33,219 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 15:36:34,388 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 15:36:34,653 - INFO - Processing document paper.pdf
+2025-02-21 15:36:46,723 - INFO - Finished converting document paper.pdf in 15.08 sec.
+2025-02-21 15:36:46,723 - INFO - Processing PictureItem 1
+2025-02-21 15:36:46,723 - INFO - Image 1 on page 7
+2025-02-21 15:36:46,723 - INFO - Location: 92.26, 702.68, 517.38, 496.84
+2025-02-21 15:36:46,723 - INFO - Caption: Figure 1: Schematics of Variational PINNs for a 2D Poisson problem.
+2025-02-21 15:36:46,723 - INFO - Processing PictureItem 2
+2025-02-21 15:36:46,724 - INFO - Image 2 on page 8
+2025-02-21 15:36:46,724 - INFO - Location: 125.80, 697.38, 486.85, 536.51
+2025-02-21 15:36:46,724 - INFO - Caption: Figure 2: hp-VPINNs: Effect of training time on Number of elements (a) Number of residual points vs training time.(Each element has 25 quadrature points, so 30K quadrature points will have 1200 elements).(b) Number of elements vs training time(total number of quadrature points within the domain is kept constant at 6400).
+2025-02-21 15:36:46,724 - INFO - Processing PictureItem 3
+2025-02-21 15:36:46,724 - INFO - Image 3 on page 8
+2025-02-21 15:36:46,724 - INFO - Location: 141.70, 420.78, 472.22, 274.52
+2025-02-21 15:36:46,724 - INFO - Caption: Figure 3: Mesh of spur gear with 14,000 quad elements.
+2025-02-21 15:36:46,724 - INFO - Processing PictureItem 4
+2025-02-21 15:36:46,724 - INFO - Image 4 on page 9
+2025-02-21 15:36:46,724 - INFO - Location: 205.60, 569.52, 403.39, 489.50
+2025-02-21 15:36:46,724 - INFO - Caption: Figure 4: Bilinear transformation.
+2025-02-21 15:36:46,724 - INFO - Processing PictureItem 5
+2025-02-21 15:36:46,724 - INFO - Image 5 on page 11
+2025-02-21 15:36:46,724 - INFO - Location: 133.18, 702.14, 479.58, 612.78
+2025-02-21 15:36:46,724 - INFO - Caption: Figure 5: Quadrilateral meshes with elements having constant Jacobian.
+2025-02-21 15:36:46,724 - INFO - Processing PictureItem 6
+2025-02-21 15:36:46,724 - INFO - Image 6 on page 12
+2025-02-21 15:36:46,724 - INFO - Location: 156.19, 350.58, 479.51, 236.89
+2025-02-21 15:36:46,724 - INFO - Caption: Figure 6: FastVPINNs Tensor schematic representation for residual computation.
+2025-02-21 15:36:46,724 - INFO - Processing PictureItem 7
+2025-02-21 15:36:46,725 - INFO - Image 7 on page 14
+2025-02-21 15:36:46,725 - INFO - Location: 99.21, 336.60, 514.19, 205.26
+2025-02-21 15:36:46,725 - INFO - Caption: Figure 7: Exact solutions of the two-dimensional Poisson's equation for given test-cases.
+2025-02-21 15:36:46,725 - INFO - Processing PictureItem 8
+2025-02-21 15:36:46,725 - INFO - Image 8 on page 15
+2025-02-21 15:36:46,725 - INFO - Location: 109.04, 601.87, 505.94, 364.15
+2025-02-21 15:36:46,725 - INFO - Caption: Figure 8: Accuracy comparison between PINNs and FastVPINNs. The quadrature points used to train FastVPINNs are shown in (a). The FastVPINNs prediction is shown in (b) and the point-wise error for the FastVPINNs solution is shown in (c). The PINNs is trained on collocation points as shown in (d). The PINNs solution and point-wise error are shown in (e) and (f), respectively.
+2025-02-21 15:36:46,725 - INFO - Processing PictureItem 9
+2025-02-21 15:36:46,725 - INFO - Image 9 on page 16
+2025-02-21 15:36:46,725 - INFO - Location: 133.98, 659.40, 476.83, 535.11
+2025-02-21 15:36:46,725 - INFO - Caption: Figure 9: Left: Effect of p-refinement(left) and h-refinement(right) on FastVPINNs.
+2025-02-21 15:36:46,725 - INFO - Processing PictureItem 10
+2025-02-21 15:36:46,725 - INFO - Image 10 on page 17
+2025-02-21 15:36:46,725 - INFO - Location: 93.76, 698.44, 517.51, 384.24
+2025-02-21 15:36:46,725 - INFO - Caption: Figure 10: (a) Variation of computational time with the number of quadrature (residual) points, plotted against the median time taken per epoch; (b) Comparison of computational time between hp-VPINNs and FastVPINNs for varying numbers of elements.
+2025-02-21 15:36:46,725 - INFO - Processing PictureItem 11
+2025-02-21 15:36:46,725 - INFO - Image 11 on page 18
+2025-02-21 15:36:46,725 - INFO - Location: 103.20, 659.49, 508.09, 512.60
+2025-02-21 15:36:46,725 - INFO - Caption: Figure 11: (a) Comparing MAE for PINNs and FastVPINNs over different frequencies. (b) time taken for PINNs and FastVPINNs to reach an MAE of 5 × 10 -2 for different frequencies.
+2025-02-21 15:36:46,725 - INFO - Processing PictureItem 12
+2025-02-21 15:36:46,726 - INFO - Image 12 on page 19
+2025-02-21 15:36:46,726 - INFO - Location: 110.14, 661.92, 502.80, 566.35
+2025-02-21 15:36:46,726 - INFO - Caption: Figure 12: (a) Exact Solution obtained using FEM. (b) Predicted solution-FastVPINNs (c) Pointwise absolute error.
+2025-02-21 15:36:46,726 - INFO - Processing PictureItem 13
+2025-02-21 15:36:46,726 - INFO - Image 13 on page 20
+2025-02-21 15:36:46,726 - INFO - Location: 100.03, 703.11, 510.68, 533.86
+2025-02-21 15:36:46,726 - INFO - Caption: Figure 13: Schematics of VPINNs for space dependent inverse parameter modelling.
+2025-02-21 15:36:46,726 - INFO - Processing PictureItem 14
+2025-02-21 15:36:46,726 - INFO - Image 14 on page 21
+2025-02-21 15:36:46,726 - INFO - Location: 134.05, 699.15, 477.53, 429.23
+2025-02-21 15:36:46,726 - INFO - Caption: Figure 14: Inverse problem on FastVPINNs with constant diffusion parameter.
+2025-02-21 15:36:46,726 - INFO - Processing PictureItem 15
+2025-02-21 15:36:46,726 - INFO - Image 15 on page 22
+2025-02-21 15:36:46,726 - INFO - Location: 149.57, 685.15, 475.99, 507.45
+2025-02-21 15:36:46,726 - INFO - Caption: Figure 15: (a) Exact solution( u ) obtained from FEM(ParMooN). (b) Predicted SolutionFastVPINNs. (c) Absolute error: FEM vs FastVPINNs solution. (d) Exact solution diffusion parameter( ϵ actual ). (e) Predicted diffusion parameter by FastVPINNs( ϵ predicted ) (f) Absolute error: ϵ actual vs ϵ predicted .
+2025-02-21 15:36:46,726 - INFO - Processing PictureItem 16
+2025-02-21 15:36:46,726 - INFO - Image 16 on page 23
+2025-02-21 15:36:46,726 - INFO - Location: 119.71, 693.03, 489.09, 541.27
+2025-02-21 15:36:46,726 - INFO - Caption: Figure 16: Comparative analysis of the median training time per epoch for different hyperparameters: (a) Number of test functions ( N test ) vs Number of quadrature points ( N quad) with ( N elem =1), (b) Number of Elements ( N elem ) vs Number of test functions ( N test ) with quadrature points fixed at 10x10 ( N quad =10*10), (c) Number of elements ( N elem ) vs Number of quadrature points ( N quad ) with fixed number of test functions ( N test =10*10).
+2025-02-21 15:36:46,726 - INFO - Processing PictureItem 17
+2025-02-21 15:36:46,726 - INFO - Image 17 on page 23
+2025-02-21 15:36:46,726 - INFO - Location: 119.85, 531.64, 489.14, 380.43
+2025-02-21 15:36:46,726 - INFO - Caption: Figure 16: Comparative analysis of the median training time per epoch for different hyperparameters: (a) Number of test functions ( N test ) vs Number of quadrature points ( N quad) with ( N elem =1), (b) Number of Elements ( N elem ) vs Number of test functions ( N test ) with quadrature points fixed at 10x10 ( N quad =10*10), (c) Number of elements ( N elem ) vs Number of quadrature points ( N quad ) with fixed number of test functions ( N test =10*10).
+2025-02-21 15:36:46,726 - INFO - Processing PictureItem 18
+2025-02-21 15:36:46,727 - INFO - Image 18 on page 23
+2025-02-21 15:36:46,727 - INFO - Location: 119.80, 369.59, 488.91, 218.44
+2025-02-21 15:36:46,727 - INFO - Caption: Figure 16: Comparative analysis of the median training time per epoch for different hyperparameters: (a) Number of test functions ( N test ) vs Number of quadrature points ( N quad) with ( N elem =1), (b) Number of Elements ( N elem ) vs Number of test functions ( N test ) with quadrature points fixed at 10x10 ( N quad =10*10), (c) Number of elements ( N elem ) vs Number of quadrature points ( N quad ) with fixed number of test functions ( N test =10*10).
+2025-02-21 15:36:46,727 - INFO - Processing PictureItem 19
+2025-02-21 15:36:46,727 - INFO - Image 19 on page 29
+2025-02-21 15:36:46,727 - INFO - Location: 95.01, 643.95, 516.48, 287.13
+2025-02-21 15:36:46,727 - INFO - Caption: Figure 17: Effect of h-refinement on the accuracy of solving the two-dimensional Poisson equation. The first, second, and third columns are the domain decomposition, FastVPINNs solution, and pointwise test error, respectively. From top to bottom: N elem = 1, N elem = 16 and N elem = 64. For each element, we use 80 × 80 quadrature points and 5 test functions in each direction.
+2025-02-21 15:36:46,727 - INFO - Processing PictureItem 20
+2025-02-21 15:36:46,727 - INFO - Image 20 on page 30
+2025-02-21 15:36:46,727 - INFO - Location: 150.92, 695.08, 461.68, 225.59
+2025-02-21 15:36:46,727 - INFO - Caption: Figure 18: Effect of p-refinement on the accuracy of solution of two-dimensional Poisson's equation on 1 element. The first and second columns are the FastVPINNs solution and point-wise test error, respectively. From top to bottom: N test = 5 × 5, N test = 10 × 10, N test = 15 × 15 and N test = 20 × 20. The element has 80 × 80 total quadrature points.
+2025-02-21 15:36:46,727 - INFO - Processing PictureItem 21
+2025-02-21 15:36:46,727 - INFO - Image 21 on page 31
+2025-02-21 15:36:46,727 - INFO - Location: 181.53, 486.65, 427.93, 304.27
+2025-02-21 15:36:46,727 - INFO - Caption: Figure 19: Comparision of time taken for prediction by FEM and PINNs for varying number of quadrature points.
+2025-02-21 15:36:46,727 - INFO - Found 21 images with captions
+2025-02-21 15:36:46,732 - INFO - Output saved to ./output/final_output.txt

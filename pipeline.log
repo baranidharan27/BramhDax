@@ -424,3 +424,37 @@
 2025-02-20 17:19:13,142 - INFO - Generated description for ./output/paper/images/image_21.png: the plot of the fourier plot is shown in the following diagram
 2025-02-20 17:19:13,142 - INFO - Final output saved to ./output/paper/final_output.txt
 2025-02-20 17:19:13,142 - INFO - Finished processing paper.pdf. Extracted 21 images and 1 tables.
+2025-02-21 15:02:04,134 - INFO - Initialized PdfProcessor component with config: {}
+2025-02-21 15:02:04,135 - INFO - Initialized ImageDescriptionGenerator component with config: {}
+2025-02-21 15:02:07,649 - INFO - Initialized TableProcessor component with config: {}
+2025-02-21 15:02:07,653 - INFO - Processing paper.pdf...
+2025-02-21 15:02:07,678 - INFO - Going to convert document batch...
+2025-02-21 15:02:07,794 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 15:02:09,649 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 15:02:14,263 - INFO - Accelerator device: 'cuda:0'
+2025-02-21 15:02:14,592 - INFO - Processing document paper.pdf
+2025-02-21 15:02:33,108 - INFO - Finished converting document paper.pdf in 25.45 sec.
+2025-02-21 15:02:33,108 - INFO - Parsed paper.pdf successfully.
+2025-02-21 15:02:34,407 - INFO - Generated description for ./output/paper/images/image_1.png: a diagram of the two phases of the algorithm
+2025-02-21 15:02:35,225 - INFO - Generated description for ./output/paper/images/image_2.png: the two graphs show the number of each elements
+2025-02-21 15:02:36,602 - INFO - Generated description for ./output/paper/images/image_3.png: a diagram of a circular shape with a circular shape and a circular shape with a circular shape
+2025-02-21 15:02:37,636 - INFO - Generated description for ./output/paper/images/image_4.png: a diagram of a tree with a tree and a tree with a tree
+2025-02-21 15:02:38,294 - INFO - Generated description for ./output/paper/images/image_5.png: a black and white image of a guitar
+2025-02-21 15:02:38,893 - INFO - Generated description for ./output/paper/images/image_6.png: the three different types of the fourier
+2025-02-21 15:02:39,793 - INFO - Generated description for ./output/paper/images/image_7.png: the same number of different spectrals in a single - cell
+2025-02-21 15:02:40,920 - INFO - Generated description for ./output/paper/images/image_8.png: the three different plots of the different plots of the different plots of the different plots
+2025-02-21 15:02:41,692 - INFO - Generated description for ./output/paper/images/image_9.png: the plot of the fourier plot is shown in green
+2025-02-21 15:02:42,991 - INFO - Generated description for ./output/paper/images/image_10.png: the two plots of the two different types of the two different types of the two different types of the
+2025-02-21 15:02:43,883 - INFO - Generated description for ./output/paper/images/image_11.png: the plot of the fourier plot is shown in blue and green
+2025-02-21 15:02:44,487 - INFO - Generated description for ./output/paper/images/image_12.png: the two different types of the fourier
+2025-02-21 15:02:45,148 - INFO - Generated description for ./output/paper/images/image_13.png: a diagram of the mechanism of a cell
+2025-02-21 15:02:46,211 - INFO - Generated description for ./output/paper/images/image_14.png: the three plots of the fouriers are shown in the following the same plots
+2025-02-21 15:02:46,927 - INFO - Generated description for ./output/paper/images/image_15.png: the three different views of the same spheres
+2025-02-21 15:02:47,760 - INFO - Generated description for ./output/paper/images/image_16.png: the plot of the number of neutrons in the nucleus
+2025-02-21 15:02:48,996 - INFO - Generated description for ./output/paper/images/image_17.png: the plot of the number of the two different types of the number of the two different types
+2025-02-21 15:02:50,295 - INFO - Generated description for ./output/paper/images/image_18.png: the number of the two different types of the two different types of the two types of the two types
+2025-02-21 15:02:51,191 - INFO - Generated description for ./output/paper/images/image_19.png: the results of the two different plots of the two different plots
+2025-02-21 15:02:52,492 - INFO - Generated description for ./output/paper/images/image_20.png: the results of the different photon - activated photon - activated photon - activated photon - activated photon - activated
+2025-02-21 15:02:53,378 - INFO - Generated description for ./output/paper/images/image_21.png: the plot of the fourier plot is shown in the following diagram
+2025-02-21 15:02:53,378 - INFO - Final output saved to ./output/paper/final_output.txt
+2025-02-21 15:02:53,378 - INFO - Finished processing paper.pdf. Extracted 21 images and 1 tables.
