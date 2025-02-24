@@ -69,7 +69,6 @@ Here is the structure of the repository:
 │   │   ├── table_1.txt
 │   │   └── final_output.txt
 ├── pipeline/
-│   ├── __pycache__/
 │   ├── base.py
 │   ├── document_processing.py #document orchestration
 │   ├── image_processing.py # image processing 
