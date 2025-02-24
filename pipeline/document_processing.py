@@ -20,19 +20,11 @@ from docling.datamodel.pipeline_options import (
     TesseractOcrOptions,
 )
 # other support libraries
-import time
-import requests
-from pathlib import Path
-from IPython.display import display
-import pandas as pd
-import matplotlib.pyplot as plt
-import math
-
 import os
 import logging
 from concurrent.futures import ThreadPoolExecutor
 from .pdf_processing import PdfProcessor
-from .image_processing import ImageDescriptionGenerator
+from .proximity_captioner import ProximityCaptioner  # Import the ProximityCaptioner
 from .table_processing import TableProcessor
 
 class DocumentProcessor:
@@ -41,7 +33,7 @@ class DocumentProcessor:
     def __init__(self, output_base_dir, scale=2.0):
         self.output_base_dir = output_base_dir
         self.pdf_processor = PdfProcessor(scale)
-        self.image_description_generator = ImageDescriptionGenerator()
+        self.proximity_captioner = ProximityCaptioner()  # Use ProximityCaptioner instead of ImageDescriptionGenerator
         self.table_processor = TableProcessor(scale)  # Initialize TableProcessor
         self.logger = logging.getLogger(__name__)
 
@@ -64,21 +56,24 @@ class DocumentProcessor:
             tables = self.table_processor.process(conv_res, tables_dir)  # Pass conversion result to TableProcessor
 
             # Generate final output with image descriptions and table details
-            self.generate_final_output(images, tables, output_dir)
+            self.generate_final_output(images, tables, output_dir, conv_res)  # Pass conv_res for captioning
 
             self.logger.info(f"Finished processing {pdf_path.name}. Extracted {len(images)} images and {len(tables)} tables.")
         else:
             self.logger.error(f"Skipping {pdf_path.name} due to parsing error.")
 
-    def generate_final_output(self, images, tables, output_dir):
+    def generate_final_output(self, images, tables, output_dir, conv_res):
         """Generate the final output text file with image descriptions and table details."""
         output_text = ""
 
+        # Use ProximityCaptioner to generate captions
+        images_list = self.proximity_captioner.process(conv_res)  # Use ProximityCaptioner for caption extraction
+
         # Add descriptions for images
-        for idx, (image_path, _) in enumerate(images, start=1):
-            description = self.image_description_generator.process(image_path)
-            output_text += f"<image_{idx}>\n"
-            output_text += f"{{image_{idx}_description: {description}}}\n\n"
+        for img in images_list:
+            output_text += f"<image_{img['number']}>\n"
+            output_text += f"Page {img['page']}\n"
+            output_text += f"{{image_{img['number']}_description: {img['caption']}}}\n\n"
 
         # Add table details (linking to the text files)
         for idx, table_filename in enumerate(tables, start=1):

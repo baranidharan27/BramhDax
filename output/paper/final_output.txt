@@ -1,65 +1,86 @@
 <image_1>
-{image_1_description: a diagram of the two phases of the algorithm}
+Page 7
+{image_1_description: Figure 1: Schematics of Variational PINNs for a 2D Poisson problem.}
 
 <image_2>
-{image_2_description: the two graphs show the number of each elements}
+Page 8
+{image_2_description: Figure 2: hp-VPINNs: Effect of training time on Number of elements (a) Number of residual points vs training time.(Each element has 25 quadrature points, so 30K quadrature points will have 1200 elements).(b) Number of elements vs training time(total number of quadrature points within the domain is kept constant at 6400).}
 
 <image_3>
-{image_3_description: a diagram of a circular shape with a circular shape and a circular shape with a circular shape}
+Page 8
+{image_3_description: Figure 3: Mesh of spur gear with 14,000 quad elements.}
 
 <image_4>
-{image_4_description: a diagram of a tree with a tree and a tree with a tree}
+Page 9
+{image_4_description: Figure 4: Bilinear transformation.}
 
 <image_5>
-{image_5_description: a black and white image of a guitar}
+Page 11
+{image_5_description: Figure 5: Quadrilateral meshes with elements having constant Jacobian.}
 
 <image_6>
-{image_6_description: the three different types of the fourier}
+Page 12
+{image_6_description: Figure 6: FastVPINNs Tensor schematic representation for residual computation.}
 
 <image_7>
-{image_7_description: the same number of different spectrals in a single - cell}
+Page 14
+{image_7_description: Figure 7: Exact solutions of the two-dimensional Poisson's equation for given test-cases.}
 
 <image_8>
-{image_8_description: the three different plots of the different plots of the different plots of the different plots}
+Page 15
+{image_8_description: Figure 8: Accuracy comparison between PINNs and FastVPINNs. The quadrature points used to train FastVPINNs are shown in (a). The FastVPINNs prediction is shown in (b) and the point-wise error for the FastVPINNs solution is shown in (c). The PINNs is trained on collocation points as shown in (d). The PINNs solution and point-wise error are shown in (e) and (f), respectively.}
 
 <image_9>
-{image_9_description: the plot of the fourier plot is shown in green}
+Page 16
+{image_9_description: Figure 9: Left: Effect of p-refinement(left) and h-refinement(right) on FastVPINNs.}
 
 <image_10>
-{image_10_description: the two plots of the two different types of the two different types of the two different types of the}
+Page 17
+{image_10_description: Figure 10: (a) Variation of computational time with the number of quadrature (residual) points, plotted against the median time taken per epoch; (b) Comparison of computational time between hp-VPINNs and FastVPINNs for varying numbers of elements.}
 
 <image_11>
-{image_11_description: the plot of the fourier plot is shown in blue and green}
+Page 18
+{image_11_description: Figure 11: (a) Comparing MAE for PINNs and FastVPINNs over different frequencies. (b) time taken for PINNs and FastVPINNs to reach an MAE of 5 × 10 -2 for different frequencies.}
 
 <image_12>
-{image_12_description: the two different types of the fourier}
+Page 19
+{image_12_description: Figure 12: (a) Exact Solution obtained using FEM. (b) Predicted solution-FastVPINNs (c) Pointwise absolute error.}
 
 <image_13>
-{image_13_description: a diagram of the mechanism of a cell}
+Page 20
+{image_13_description: Figure 13: Schematics of VPINNs for space dependent inverse parameter modelling.}
 
 <image_14>
-{image_14_description: the three plots of the fouriers are shown in the following the same plots}
+Page 21
+{image_14_description: Figure 14: Inverse problem on FastVPINNs with constant diffusion parameter.}
 
 <image_15>
-{image_15_description: the three different views of the same spheres}
+Page 22
+{image_15_description: Figure 15: (a) Exact solution( u ) obtained from FEM(ParMooN). (b) Predicted SolutionFastVPINNs. (c) Absolute error: FEM vs FastVPINNs solution. (d) Exact solution diffusion parameter( ϵ actual ). (e) Predicted diffusion parameter by FastVPINNs( ϵ predicted ) (f) Absolute error: ϵ actual vs ϵ predicted .}
 
 <image_16>
-{image_16_description: the plot of the number of neutrons in the nucleus}
+Page 23
+{image_16_description: Figure 16: Comparative analysis of the median training time per epoch for different hyperparameters: (a) Number of test functions ( N test ) vs Number of quadrature points ( N quad) with ( N elem =1), (b) Number of Elements ( N elem ) vs Number of test functions ( N test ) with quadrature points fixed at 10x10 ( N quad =10*10), (c) Number of elements ( N elem ) vs Number of quadrature points ( N quad ) with fixed number of test functions ( N test =10*10).}
 
 <image_17>
-{image_17_description: the plot of the number of the two different types of the number of the two different types}
+Page 23
+{image_17_description: Figure 16: Comparative analysis of the median training time per epoch for different hyperparameters: (a) Number of test functions ( N test ) vs Number of quadrature points ( N quad) with ( N elem =1), (b) Number of Elements ( N elem ) vs Number of test functions ( N test ) with quadrature points fixed at 10x10 ( N quad =10*10), (c) Number of elements ( N elem ) vs Number of quadrature points ( N quad ) with fixed number of test functions ( N test =10*10).}
 
 <image_18>
-{image_18_description: the number of the two different types of the two different types of the two types of the two types}
+Page 23
+{image_18_description: Figure 16: Comparative analysis of the median training time per epoch for different hyperparameters: (a) Number of test functions ( N test ) vs Number of quadrature points ( N quad) with ( N elem =1), (b) Number of Elements ( N elem ) vs Number of test functions ( N test ) with quadrature points fixed at 10x10 ( N quad =10*10), (c) Number of elements ( N elem ) vs Number of quadrature points ( N quad ) with fixed number of test functions ( N test =10*10).}
 
 <image_19>
-{image_19_description: the results of the two different plots of the two different plots}
+Page 29
+{image_19_description: Figure 17: Effect of h-refinement on the accuracy of solving the two-dimensional Poisson equation. The first, second, and third columns are the domain decomposition, FastVPINNs solution, and pointwise test error, respectively. From top to bottom: N elem = 1, N elem = 16 and N elem = 64. For each element, we use 80 × 80 quadrature points and 5 test functions in each direction.}
 
 <image_20>
-{image_20_description: the results of the different photon - activated photon - activated photon - activated photon - activated photon - activated}
+Page 30
+{image_20_description: Figure 18: Effect of p-refinement on the accuracy of solution of two-dimensional Poisson's equation on 1 element. The first and second columns are the FastVPINNs solution and point-wise test error, respectively. From top to bottom: N test = 5 × 5, N test = 10 × 10, N test = 15 × 15 and N test = 20 × 20. The element has 80 × 80 total quadrature points.}
 
 <image_21>
-{image_21_description: the plot of the fourier plot is shown in the following diagram}
+Page 31
+{image_21_description: Figure 19: Comparision of time taken for prediction by FEM and PINNs for varying number of quadrature points.}
 
 <table_1>
 {table_1_text: ./output/paper/tables/table_1.txt}
