@@ -177,8 +177,54 @@ python main.py --files paper1.pdf,paper2.pdf
 ```bash
 python main.py --components PdfProcessor,ProximityCaptioner
 ```
+### Dockerized pipeline
+ #### You don't need to create docker image pull and run from docker hub
+
+### 1. Pull the Docker image from Docker Hub
+
+```bash
+docker pull paranidharan01/brahmdax
+```
+### To pull the exact verified version:
+```bash
+
+docker pull paranidharan01/brahmdax@sha256:6d1cdb6e6b082be30f335240a123d9b5cd9be242aa1a185d5782ccb40ebddec6
+```
+
+### 📦 2. Run the container
+If you just want to run the app with default configuration:
+
+```bash
+docker run -p 8000:8000 paranidharan01/brahmdax
+```
+### 3. Mount a local data/ folder (for custom PDF input)
+Make sure your PDF files are in a folder named data/ in your current directory, then run:
+
+```bash
+docker run -v $(pwd)/data:/app/data -p 8000:8000 paranidharan01/brahmdax
+```
+This mounts your local data/ directory into the container so BrahmDAX can process your own files.
+
+### Requirements
+- Docker installed
+
+- ~3.2 GB free space for pulling the image
+
+### Notes
+- Exposes port 8000 (change as needed)
+
+- The image includes all dependencies pre-installed (uv, transformers, docling, etc.)
+
+- The container runs main.py on start, as defined in the Dockerfile
+
+### 📌 Docker Hub Link
+[Dockerhub](https://hub.docker.com/r/paranidharan01/brahmdax)
+
 
 ## Component Specifications
+
+
+
 
 ### ProximityCaptioner
 
