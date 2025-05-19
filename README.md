@@ -31,7 +31,7 @@ BrahmDAX is a document processing pipeline built on IBM's Docling framework that
 ## Architecture
 
 
-![Pipeline Workflow](assets/pipeline.png)
+![Pipeline Workflow](docs/assets/pipeline.png)
 
 ### Core Capabilities
 - Document structure analysis and metadata extraction
