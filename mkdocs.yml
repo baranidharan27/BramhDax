@@ -1,0 +1,59 @@
+site_name: BrahmDAX
+site_url: https://example.com
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Installation: installation.md
+      - Configuration: configuration.md
+  - API Reference:
+      - Base Processor: api/base.md
+      - Document Processor: api/document_processing.md
+      - proximity captioner: api/proximity_captioner.md
+      - Table Processor: api/table_processing.md
+      - LLMEnricher: api/LLMEnricher.md
+      - logger: api/logger.md
+      - PDF Processing: api/pdf_processing.md
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - mkdocstrings:
+      handlers:
+        python:
+          paths:
+            - .
+          options:
+            rendering:
+              show_source: true  # This shows the source code in the documentation
+
+
+extra_css:
+  - 'assets/styles.css'
+
+extra_javascript:
+  - 'assets/script.js'
+

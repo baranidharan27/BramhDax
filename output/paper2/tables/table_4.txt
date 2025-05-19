@@ -1,0 +1,5 @@
+0	1
+[66]	A. Astolfo, M. Endrizzi, F . A. Vittoria, P . C. Diemoz, B. Price, I. Haig, and A. Olivo, 'Large field of view, fast and low dose multimodal phase-contrast imaging at high x-ray energy,' Scientific reports , vol. 7, no. 1, p. 2187, 2017.
+[67]	K. Willer, A. A. Fingerle, L. B. Gromann, F . De Marco, J. Herzen, K. Achterhold, B. Gleich, D. Muenzel, K. Scherer, M. Renz, et al. , 'X-ray dark-field imaging of the human lung-a feasibility study on a deceased body,' PloS one , vol. 13, no. 9, p. e0204565, 2018.
+[68]	M. Viermetz, N. Gustschin, C. Schmid, J. Haeusele, M. von Teuffenbach, P . Meyer, F . Bergner, T. Lasser, R. Proksa, T. Koehler, et al. , 'Dark-field computed tomography reaches the human scale,' Proceedings of the National Academy of Sciences , vol. 119, no. 8, p. e2118799119, 2022.
+[69]	L. Brombal, F. Arfelli, R. H. Menk, L. Rigon, and F . Brun, 'Pepi lab: a flexible compact multi-modal setup for x-ray phase-contrast and spectral imaging,' Scientific Reports , vol. 13, no. 1, p. 4206, 2023.

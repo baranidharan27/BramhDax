@@ -1,202 +1,61 @@
-# IBM Docling Document Processing Pipeline
+## BrahmDAX Hub: The Central Data Backbone for BrahmAI
 
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Pipeline Components](#pipeline-components)
-- [Output Format](#output-format)
-- [Logging](#logging)
-- [Extending the Pipeline](#extending-the-pipeline)
-- [Additional Resources](#additional-resources)
-- [License](#license)
+**BrahmDAX (Brahm Data and Analytics Exchange) Hub** is the core data infrastructure within the BrahmAI ecosystem, designed to facilitate the seamless flow of data from multiple sources, transforming it into AI-ready formats, and supporting the continuous learning and fine-tuning of large language models (LLMs).
 
-## Overview
+---
 
-This repository provides a robust document processing pipeline built around IBM's Docling tool. The pipeline is designed for large-scale document parsing, focusing on efficient extraction of text, images, and tables from documents. While the pipeline can be used with RAG systems (example implementation provided in notebooks), its primary purpose is document preprocessing and parsing.
+### Key Features and Capabilities of BrahmDAX Hub:
 
-### Key Objectives
-- Extract structured content from documents using IBM Docling
-- Process images and generate captions using BLIP
-- Extract and format tables from documents
-- Provide scalable, parallel processing capabilities
-- Enable easy integration with downstream LLM systems
+1. **Centralized Data Repository:**
+   - Acts as the primary storage for structured, semi-structured, and unstructured data.
+   - Integrates data from diverse sources, including public datasets, proprietary datasets, and real-time data streams.
 
-## Features
+2. **Data Sourcing and Ingestion:**
+   - Collects data from web scraping, APIs, databases, scientific repositories, and other channels.
+   - Supports batch and real-time data ingestion to ensure up-to-date information flow.
 
-### Core Functionality
-- **Document Parsing**
-  - Text extraction from PDFs using Docling
-  - Metadata extraction and preservation
-  - Structured content organization
+3. **Data Transformation and Enrichment:**
+   - Cleans, filters, and normalizes raw data.
+   - Performs deduplication, bias mitigation, and data augmentation.
+   - Enriches data with metadata and contextual information for improved AI training.
 
-- **Image Processing**
-  - Automated image extraction
-  - BLIP-powered image captioning
-  - Organized image storage
+4. **Data Pipeline Automation:**
+   - Automates ETL (Extract, Transform, Load) processes for efficient data handling.
+   - Incorporates workflow orchestration using tools like Apache Airflow or Prefect.
 
-- **Table Processing**
-  - Table detection and extraction
-  - Multiple format outputs (CSV, TXT)
-  - Structure preservation
+5. **Data Management and Versioning:**
+   - Implements robust version control for datasets using tools like DVC (Data Version Control).
+   - Tracks data lineage, ensuring reproducibility and auditability.
 
-### Technical Features
-- Multi-threaded parallel processing using ThreadPoolExecutor
-- Batch processing capabilities
-- Comprehensive logging system
-- Modular, extensible architecture
-- Robust error handling
+6. **Interoperability and Integration:**
+   - Supports seamless integration with AI model training pipelines, including RAG (Retrieval-Augmented Generation).
+   - Compatible with popular machine learning frameworks like PyTorch and TensorFlow.
 
-## Project Structure
+7. **Data Governance and Security:**
+   - Ensures compliance with data privacy regulations (e.g., DPDP Act, IT Act).
+   - Implements access control, encryption, and monitoring to safeguard sensitive data.
 
-Here is the structure of the repository:
+8. **Scalability and Performance:**
+   - Built for horizontal scalability to handle large volumes of data.
+   - Optimized for high-performance data retrieval, processing, and loading into AI training workflows.
 
-```
-├── data/
-│   ├── paper1.pdf # Input file 
-│   ├── paper2.pdf # Input file 
-│   └── ...
-├── env/  #environment
-├── notebooks/
-│   ├── docling_parsing.ipynb # Docling implementation
-│   ├── try_rag.ipynb # RAG implementation using granite and docling
-├── output/
-│   ├── paper/
-│   │   ├── images/ # output images
-│   │   ├── tables/ # output tables
-│   │   ├── table_1.txt
-│   │   └── final_output.txt
-├── pipeline/
-│   ├── base.py
-│   ├── document_processing.py #document orchestration
-│   ├── image_processing.py # image processing 
-│   ├── logger.py # logging file
-│   ├── pdf_processing.py # pdf processing 
-│   ├── table_processing.py # table processing
-│   └── __init__.py
-├── .env
-├── .gitignore
-├── data_preprocessing.py 
-├── main.py
-├── pipeline.log
-├── README.md
-└── requirements.txt
-```
+9. **Advanced Analytics and Insights:**
+   - Provides real-time analytics, dashboards, and reports for data exploration.
+   - Supports AI-driven insights to identify trends, anomalies, and opportunities within datasets.
 
-### Notebooks
-- **`docling_parsing.ipynb`**: This notebook contains the exploration of the Docling tool for document parsing and extraction of various components like images and tables.
-- **`try_rag.ipynb`**: This notebook demonstrates the RAG (Retrieval-Augmented Generation) implementation using the extracted data for various tasks.
+---
 
+### Applications of BrahmDAX Hub:
 
-## Installation
+1. **AI Model Training:** Acts as the primary source of training data for LLMs and scientific AI models within the BrahmAI ecosystem.
+2. **RAG (Retrieval-Augmented Generation):** Supplies high-quality, contextual data for RAG-based applications.
+3. **Data-Driven Decision Making:** Enables advanced analytics and insights to support strategic AI initiatives.
+4. **Cross-Domain Intelligence:** Facilitates data integration across multiple domains, such as healthcare, engineering, and scientific research.
 
-1. **Clone the Repository**
-```bash
-git clone https://github.com/baranidharan27/IBM.git
-cd IBM
-```
+---
 
-2. **Install Dependencies**
-```bash
-pip install -r requirements.txt
-```
+### Impact and Value Proposition:
 
-3. **Verify Installation**
-```bash
-python main.py --test
-```
-
-## Usage
-
-### Basic Usage
-```bash
-python main.py
-```
-This will process all documents in the `data/` directory.
-
-### Configuration
-Create a `.env` file in the root directory:
-```
-LOG_LEVEL=INFO
-BATCH_SIZE=10
-USE_GPU=True
-```
-
-## Pipeline Components
-
-### Base Class (base.py)
-The foundation class providing:
-- Configuration management
-- Logging setup
-- Error handling
-- Common utilities
-
-### Document Processing (document_processing.py)
-Handles:
-- PDF parsing
-- Text extraction
-- Document structure analysis
-
-### Image Processing (image_processing.py)
-Manages:
-- Image extraction
-- BLIP captioning integration
-- Image storage
-
-### Table Processing (table_processing.py)
-Responsible for:
-- Table detection
-- Format conversion
-- Structure preservation
-
-## Output Format
-
-### Directory Structure
-```
-output/
-└── document_name/
-    ├── images/
-    ├── tables/
-    └── final_output.txt
-```
-
-### Sample Output
-```
-<image_1>
-{image_1_description: a diagram of the two phases of the algorithm}
-
-<table_1>
-[table content in structured format]
-```
-
-## Logging
-
-The pipeline uses a centralized logging system:
-
-```yaml
-2025-02-20 11:18:38,377 - INFO - Processing paper.pdf...
-2025-02-20 11:18:38,675 - INFO - Accelerator device: 'cuda:0'
-2025-02-20 11:19:00,845 - INFO - Finished converting document paper.pdf
-2025-02-20 11:19:21,036 - INFO - Generated description for ./output/paper/images/image_1.png: the plot of the fourier plot is shown in the following diagram
-2025-02-20 11:19:21,036 - INFO - Final output saved to ./output/paper/final_output.txt
-2025-02-20 11:19:21,036 - INFO - Finished processing paper.pdf. Extracted 21 images and 1 tables.
-```
-
-## Extending the Pipeline
-
-### Adding New Processors
-1. Create a new class in `pipeline/`
-2. Inherit from `BaseProcessor`
-3. Implement required methods
-4. Register in `main.py`
-
-### Custom Output Formats
-Modify `document_processing.py` to add new output formats.
-
-## Additional Resources
-
-### Notebooks
-- `docling_parsing.ipynb`: Examples and tutorials for using Docling
-- `try_rag.ipynb`: Optional RAG implementation example using Granite model
+- **Accelerated AI Development:** Streamlines the data lifecycle, reducing the time and effort required for AI model training and fine-tuning.
+- **Data-Driven Innovation:** Provides a robust foundation for AI-driven innovation across various industries and research fields.
+- **Scalable Infrastructure:** Offers a future-proof data backbone capable of scaling to meet the evolving needs of the BrahmAI initiative.

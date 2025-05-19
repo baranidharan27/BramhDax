@@ -1,0 +1,70 @@
+{
+  "images": [
+    {
+      "image": 1,
+      "page": 3,
+      "data": {
+        "image_description": "Figure 1: a) A diagram of the experimental system for beam-tracking x-ray microtomography with an offset geometry. The divergent x-ray beam is emitted from the source and is incident on an absorbing mask which structures the beam into an array of 1D beamlets. The beamlets interact with the sample and after some propagation distance zod are incident on a high-resolution detector capable of measuring the perturbations. The diagram is not to scale. b) The effects of different sample interactions for a single beamlet, with the corresponding 1D detector line profile. Each type of interaction may occur simultaneously, allowing the retrieval of three different contrast channels from a single image.",
+        "image_caption": "The experiment is shown in Figure 2. A) An image of a beam of light from an xray source. B) Two different beamings of xrays from different sources. C) Three different beams of beam data from one source, each of which is a different image from another. D) Four different x rays from two different source sources, one of them a separate image, and the other a distinct image (Figure 3).\nThe experiment shows that the two sources are not identical, but",
+        "key_insights": "The beam of a beam can be detected by a detector with a 1-D line. This is a very important feature of xray imaging. It is important to note that the detector is only able to detect the x rays of light that are emitted by the individual beam. In the case of beam tracking, the detection of these rays is very limited. However, it is possible to obtain a large number of photons from one beam and to observe the photons in the other beam, which is the",
+        "mathematical_context": "The experimental apparatus is designed to be able to detect the effects and to provide a means of determining the spatial distribution of a beam. It is also designed for the detection of other effects, such as the scattering of light, which may be detected by the detector. In the case of beam tracking, the system is capable to measure the intensity of each beam, and the amplitude of its beam pulses. This is a very important aspect of this system. A beam tracker is an instrument that can measure a"
+      }
+    },
+    {
+      "image": 2,
+      "page": 3,
+      "data": {
+        "image_description": "Figure 1: a) A diagram of the experimental system for beam-tracking x-ray microtomography with an offset geometry. The divergent x-ray beam is emitted from the source and is incident on an absorbing mask which structures the beam into an array of 1D beamlets. The beamlets interact with the sample and after some propagation distance zod are incident on a high-resolution detector capable of measuring the perturbations. The diagram is not to scale. b) The effects of different sample interactions for a single beamlet, with the corresponding 1D detector line profile. Each type of interaction may occur simultaneously, allowing the retrieval of three different contrast channels from a single image.",
+        "image_caption": "The experiment is shown in Figure 2. A) An image of a beam of light from an xray source. B) Two different beamings of xrays from different sources. C) Three different beams of beam data from one source, each of which is a different image from another. D) Four different x rays from two different source sources, one of them a separate image, and the other a distinct image (Figure 3).\nThe experiment shows that the two sources are not identical, but",
+        "key_insights": "The beam of a beam can be detected by a detector with a 1-D line. This is a very important feature of xray imaging. It is important to note that the detector is only able to detect the x rays of light that are emitted by the individual beam. In the case of beam tracking, the detection of these rays is very limited. However, it is possible to obtain a large number of photons from one beam and to observe the photons in the other beam, which is the",
+        "mathematical_context": "The experimental apparatus is designed to be able to detect the effects and to provide a means of determining the spatial distribution of a beam. It is also designed for the detection of other effects, such as the scattering of light, which may be detected by the detector. In the case of beam tracking, the system is capable to measure the intensity of each beam, and the amplitude of its beam pulses. This is a very important aspect of this system. A beam tracker is an instrument that can measure a"
+      }
+    },
+    {
+      "image": 3,
+      "page": 5,
+      "data": {
+        "image_description": "Figure 2: A diagram demonstrating the definitions of the offset tomography geometry. The centre-of-rotation (COR) is offset by an amount \u2206 COR from the axis between the source and perpendicular detector, creating an angle \u03c4 with the detector centre. Only the region of the sample enclosed by the circle C 1 remains with the field-of-view throughout a 360\u00b0 rotation of the sample. The remaining region enclosed by C 2 is seen for some period < 360\u00b0 and thus must be weighted differently during the reconstruction. W(x) illustrates the weighting function for the demonstrated geometry.",
+        "image_caption": "The figure shows the position of a sample in the coronal field of view. A sample is shown in a horizontal position, with a radius of \u223c0.5 \u03bcm. In the image above, the radius is \u223c1.0 \u03bcM. This is the same radius as the centre of gravity of an object. It is important to note that the distance between a corona and the object is not the only factor affecting the orientation of corons. For example, a small object with an",
+        "key_insights": "The figure shows the results of a series of measurements of an offset-tamography sample, which are then combined to produce a single-pointed-line (P-LINE) image. This is a very simple and straightforward method of measuring the position of objects in the image, and is used to determine the distance between objects. It is also used for measuring objects with a distance of less than 1 meter. In this case, the P-Line is the point of interest. A P",
+        "mathematical_context": "The figure is based on the following mathematical context:\nThe figure shows the geometry of a sample of 1 cm in diameter. It is a simple geometric representation of an object. A sample is defined as a set of points in a circle. Each point is represented by a number. For example, the radius of 2 cm is 1.5. This is because the diameter of each point in the rectangle is 2.0. In the diagram, each circle is divided into two parts. One part is"
+      }
+    },
+    {
+      "image": 4,
+      "page": 7,
+      "data": {
+        "image_description": "Figure 3: Results of the offset scan simulation study illustrating the reconstructions achieved using the large detector conventional scan (a), the offset COR without redundancy weighting (b), and the offset COR with redundancy weighting (c). The bottom row indicates the difference images between the reconstructions and the ground truth, annotated with the mean squared error (MSE). The annotated dashed lines (a,b,c) are plotted in comparison to the ground truth (g). Within the sample region, the redundancy weighted offset scan provides comparable results to the large detector conventional scan, and is consistent with the ground truth.",
+        "image_caption": "The reconstructed image of a large-scale reconstruction of an asteroid. The image is shown in the upper left. Credit: NASA/JPL-Caltech/MSSS/UCLA/A.J.M.S.A\nThe results of this study are presented in a paper published in PLOS ONE on the results from the study.",
+        "key_insights": "The offset scanner is a large, high-resolution, low-cost, non-destructive, multi-stage, single-pass, multistage, multipurpose, inter-scan, cross-section, or interferometer scanner. It is capable of scanning a wide range of wavelengths, from low to high frequencies, with a range from 0.5 to 1.0 GHz. The offset scanning is also capable to scan a broad range, including low frequency, medium frequency and",
+        "mathematical_context": "The offset scanner is a large, high-resolution, low-cost, non-destructive, multi-layer, single-channel, multistage, multipurpose, multicore, or multirotor scanner. It is designed to be used in conjunction with a wide variety of other scanners, including the high resolution, large-scale, multimode, multiple-rotation, inter-scan, cross-section, sub-scanned, etc. The scanner has a high performance,"
+      }
+    },
+    {
+      "image": 5,
+      "page": 8,
+      "data": {
+        "image_description": "Figure 4: Axial slices of the offset beam-tracking tomography in attenuation (a), phase (b), and dark-field (c) contrast channels. Volumetric information allows the network of arteries (blue arrows) and veins (red arrows) to be traced through the tissue. Zoomed views at the positions indicated by the coloured boxes also display the attenuation (e), phase (f), and dark-field (g) channels, where it is evident that the phase channel enables the visualisation of fine, low-contrast features. The phase zoom (f) illustrates the well defined pleura (white arrows) and examples of fine pulmonary arteries (blue arrows), as well as markers of disease: enlarged air spaces indicative of centrilobular (Ce) and paraseptal (Pa) emphysema. A further zoom (h), taken from the position indicated by the dashed green box (f), demonstrates the ability to resolve fine features. A line profile is taken through an arterial lumen of several tens of micrometres, which can be traced back to the larger vessel indicated by the red arrows in b. The region in f is rendered as a volume (d), where many large emphysematous air spaces are made visible.",
+        "image_caption": "The image shows the reconstructed image of a large, deep-sea vessel. It is a small vessel, with a diameter of about 1.5 microns, and has a depth of approximately 1 micron. In the image, the vessel is surrounded by a layer of sediment, but the sediment is not visible to view. This layer is the main source of light, as it reflects light from distant sources. As the ship is submerged, it can also be seen to have a dark, shallow-",
+        "key_insights": "The network is able to reconstruct the path of a single artery, and to identify the location of other arteries. This is particularly useful for the identification of large arteries that are not directly connected to a large artery. In the case of arterials that have a high degree of vascularity, the information is available to map the arteries to their locations. For example, a small artery in the left leg of an elderly person may be identified by a series of small arteries in his right leg. Similarly,",
+        "mathematical_context": "The figure shows the distribution of blood flow in the brain, and the number of brain vessels in each vessel. It is important to note that this figure is not a complete picture of how the cerebral blood vessels are distributed. In fact, the figures are not complete, but rather a rough outline of what is happening in brain tissue, as shown in Figure 5. This is because the blood vessel distribution is a complex system, with many different components. For example, there are many vascular systems, such as"
+      }
+    },
+    {
+      "image": 6,
+      "page": 9,
+      "data": {
+        "image_description": "Figure 5: Axial slice (a) and maximum intensity projection corresponding to a thickness of 67.5 \u00b5m (b) of the offset high-resolution scan. The axial slice demonstrates the complex mesh of alveolar septa that make up the lung's gaseous exchange system. The maximum intensity projection particularly highlights a number of calcifications (green arrows), and the network of vessels (red arrows) that run alongside the alveoli.",
+        "image_caption": "The figure shows the maximum and minimum intensity projections of a lung that is composed of two layers of mesenchymal cells. Each layer is a single layer of cells that are connected by a thin layer called a mesoprotein. A mesophyll is the most complex of all the mesomegaly cells, and it is responsible for many of their functions. It is also responsible, in part, for regulating the flow of blood to the lungs. In addition, it controls the formation of oxygen",
+        "key_insights": "The axially-shaped network is a complex network that includes a large number (approximately 100) calcification sites. These calcified sites are located in the upper part of each lung, and are connected by a series of channels that are separated by an interconnecting network. In the left-hand side of Figure 5, the channel is the main channel, which is connected to the central channel by the inter-channel channel. This interconnection is called the \"spiral channel\" and is",
+        "mathematical_context": "The figure shows the geometric structure of a lung. It is a complex network that includes the lungs, the gills, and other organs. In the case of an alpine lung, it is composed of two layers of tissue, each of which is connected to its own layer of cells. This layer is called the \"cell layer\" and is responsible for the formation of all the cells in the body. A lung is also called a \"sphere layer,\" because it contains the entire body of each"
+      }
+    }
+  ],
+  "tables": [
+    "./output/paper2/tables/table_1.txt",
+    "./output/paper2/tables/table_2.txt",
+    "./output/paper2/tables/table_3.txt",
+    "./output/paper2/tables/table_4.txt"
+  ]
+}

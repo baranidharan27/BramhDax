@@ -1,0 +1,217 @@
+{
+  "images": [
+    {
+      "image": 1,
+      "page": 7,
+      "data": {
+        "image_description": "Figure 1: Schematics of Variational PINNs for a 2D Poisson problem.",
+        "image_caption": "The figure shows the number of digits of the PINN. The number is the sum of all the digits in the input. This is a simple Pointer. It is not a Polynomial. In fact, it is an exponential function. For example, if the first digit is 1, then the second digit will be 1. If the third digit was 0, the fourth digit would be 0. So, for example: 1 = 1 + 2 = 3 = 4 = 5 = 6 =",
+        "key_insights": "The first thing to note is that the Pointer Problem is a very simple problem, and the problem is not a simple solution. The problem can be solved by a number of different methods, but the most common method is to use a random number generator. This method can also be used to generate a Point problem (see Figure 2).\nIn the following figure, we will use the random numbers generator to solve the 2d Pointers problem:\n\n\nWe will also use an algorithm to",
+        "mathematical_context": "The mathematical context of the problem is a set of mathematical equations that are used to solve the Pointer Problem. The equations are described in the following way: The equation is an equation that is used in a mathematical equation to describe the probability of a given number of possible outcomes. In the case of an exponential function, the equation can be used as a function of time. For example, if the exponential functions are 1 and 2, then the time of 1 is 1. If the equations have a"
+      }
+    },
+    {
+      "image": 2,
+      "page": 8,
+      "data": {
+        "image_description": "Figure 2: hp-VPINNs: Effect of training time on Number of elements (a) Number of residual points vs training time.(Each element has 25 quadrature points, so 30K quadrature points will have 1200 elements).(b) Number of elements vs training time(total number of quadrature points within the domain is kept constant at 6400).",
+        "image_caption": "The figure shows the effect of the training period on the number and number residuals. The number is the sum of all the elements in the set.\nThe number (the number) is a function of time. It is calculated by multiplying the time by the total number. For example, if the period is 1 hour, the result is: (1 + 1) / (2 + 2) = 1.5. If the interval is 2 hours, then the resulting number: 1 = 2",
+        "key_insights": "The number and number-of-element-points-per-training-time-factor are calculated by multiplying the number (the number) by the training-rate-percentage-for-the-domain.\nIn the example above, the total number is 64, and the average training rate is 1.5. The training rates are then calculated as follows: (1) The number in the first column is the rate of the element in that domain, (2) the ratio of",
+        "mathematical_context": "The number and number-of-element-points-per-cycle-time-factor (MVC) is a measure of the number or number density of a given number. The number is defined as the density (or density-likelihood) of all elements in a domain.\nIn the case of an element, the MVC is: (1) the ratio of number to number (2) The ratio between number/number density and density/density (3)\n(4"
+      }
+    },
+    {
+      "image": 3,
+      "page": 8,
+      "data": {
+        "image_description": "Figure 3: Mesh of spur gear with 14,000 quad elements.",
+        "image_caption": "The figure shows the amount of quad element in the spur. The quad is a small, rectangular shape with a diameter of about 1.5 mm. It is the largest quad in a series of three spur gears. Each spur is about 2.4 mm long and has a width of 1 mm and a height of 2 mm, and is made of a material called a polyurethane. This material is used in many engines, including the piston engine, which uses a piston-shaped spur to",
+        "key_insights": "The main focus of the study was to determine the impact of a single spur on the performance of an array of different types of motors. The study found that the spur was the most effective way to increase the efficiency of each motor. In addition, the spindle was also the least efficient. This is because the motor is designed to be used in a wide variety of applications. For example, a spur can be a motor that is used to drive a car, or a spindles that are",
+        "mathematical_context": "The figure is based on the following mathematical context: the number of quadratic elements in the grid of the graph. The grid is a set of points on a line. Each point is connected to a point on an axis. A point can be a vertex, a node, or a vector. In the case of a grid, the point has a number between 0 and 1. This number is called the vertex. If the vertices are not connected, then the points are connected. For"
+      }
+    },
+    {
+      "image": 4,
+      "page": 9,
+      "data": {
+        "image_description": "Figure 4: Bilinear transformation.",
+        "image_caption": "The figure is a composite of two different colors. The first is the black and white color, and the second is an orange color. This color is used to represent the color of the Bilins. In the illustration, the red color represents the colors of Bilinas. It is important to note that the image is not a complete representation of all the different color combinations. For example, in the picture, there are only two colors, but the two are the same color combination. Therefore, it is",
+        "key_insights": "The first thing to note is that the Bilinsons are not the only ones that are affected by the change in the shape of the bilinears. The other two are also affected. In the case of a bilioselectric, the changes in shape are much more pronounced. This is because the material is made of two different layers of bilins. These layers are called bilidic layers. Bilidics are made from a mixture of different materials, such as carbon, iron",
+        "mathematical_context": "The figure below is a mathematical context for the Bilins. The figure is based on the following mathematical concepts: (1) the number of points in a circle, (2) a number between two points, and (3) an angle between the two angles. It is also based upon the fact that the angle of the circle is equal to (4) and the distance between points is less than (5).\nIn the first figure, the point is divided by the radius of a point"
+      }
+    },
+    {
+      "image": 5,
+      "page": 11,
+      "data": {
+        "image_description": "Figure 5: Quadrilateral meshes with elements having constant Jacobian.",
+        "image_caption": "The figure shows the quadrangle of the two meshes. The quadrant is the center of a quadre. This quadric is a simple and simple quadration. It is not a complex quadrate. In fact, it is quite simple. A simple, simple Quadrate is one that is very easy to perform. For example, a single quadrotor can be performed with a very simple set of equations. However, if you want to do a more complex Quadration, you need to",
+        "key_insights": "The first thing to note is that the Jacobians are not the same as the other elements. The Jacobi are a combination of the elements of a triangle and a cube. This is because the cube is a quadrangle, and the quadrant is the center of gravity. In other words, the two elements are in the middle of an imaginary triangle. So, if you look at the diagram below, you will see that there is no Jacob in it. It is just a rectangle.",
+        "mathematical_context": "The figure below is a simple example of a quadratic mesh. The quadrant is an element of the quadrate. It is not a fixed point. In fact, it is always a point, but it can be changed by the user. This is why the mesh is called a \"quadrant\".\nIn the diagram below, the vertex is shown as a line. A line is defined as the line of two vertices. If the vertice is in the same line as its"
+      }
+    },
+    {
+      "image": 6,
+      "page": 12,
+      "data": {
+        "image_description": "Figure 6: FastVPINNs Tensor schematic representation for residual computation.",
+        "image_caption": "The image is a simplified version of the image shown in Figure 6. The caption is the same as in the original image. In this case, the caption has been replaced by a caption that is more detailed. This is because the data are not stored in a single image file. Instead, each image has a separate caption. For example, in this image, a simple caption can be used to represent the number of pixels in an image: Figure 7: A simplified caption of a figure. Caption:",
+        "key_insights": "The first thing to note is that the data is not a linear representation of the residuals. The data are not linear in any way. It is a continuous data set. This means that if you want to compute a residual, you need to know the number of points in the matrix. If you are going to use a matrix, then you have to be able to tell the difference between the points. In the case of a single point, the point is the same as the other points,",
+        "mathematical_context": "The following is a brief overview of the theoretical context of FastPVPINS. The following are the main points of interest: (1) The Fast PVPins are based on the following principles: The first principle is that the number of possible values of a matrix is proportional to its size. (2) In the case of matrix multiplication, the matrix size is determined by the sum of all the possible matrix values. In other words, if the size of an integer is less than the total"
+      }
+    },
+    {
+      "image": 7,
+      "page": 14,
+      "data": {
+        "image_description": "Figure 7: Exact solutions of the two-dimensional Poisson's equation for given test-cases.",
+        "image_caption": "The figure shows the solution of Poissons for a given set of test cases. The solution is shown in the following order: 1) The Poisent solution, 2) the Pointer solution and 3) a Polynomial solution. Note that the solutions are not necessarily the same. For example, the first Point is the correct solution for all the test case cases, while the second Poincant is a different solution from the one for each test. In fact, if the problem",
+        "key_insights": "The Pointer's Equation is a simple and straightforward way to solve a problem. It is based on the fact that the solution of a test case is the same as the answer of any other test. The Pointers Equations are a way of solving a Pointree problem, which is an example of an equation that is not a solution. In this case, the Poiter's equations are: (1) (2)\n(3) The solution is given by the equation (",
+        "mathematical_context": "The mathematical context of this figure is a mathematical background that is related in some way to a theoretical context. The mathematical framework of a Pointer is based on the following: (1) the Poincar\u00e9 conjecture, (2) a conjecture of Pointers, and (3) an algebraic theory of polynomials. (4) The Pointree conjecture is an extension of (5) and is also based upon the conjecture that the pointrees are the same as the"
+      }
+    },
+    {
+      "image": 8,
+      "page": 15,
+      "data": {
+        "image_description": "Figure 8: Accuracy comparison between PINNs and FastVPINNs. The quadrature points used to train FastVPINNs are shown in (a). The FastVPINNs prediction is shown in (b) and the point-wise error for the FastVPINNs solution is shown in (c). The PINNs is trained on collocation points as shown in (d). The PINNs solution and point-wise error are shown in (e) and (f), respectively.",
+        "image_caption": "The image is a composite of the two images. It is based on the data from the National Center for Biotechnology Information (NCBI) (http://www.ncbi.nlm.nih.gov/pubmed/240133) that was used in the study.",
+        "key_insights": "The PINN is a fast-acting, non-linear, and nonlinear-based, multi-dimensional, multilayer, single-layer, high-performance, multipurpose, low-cost, scalable, flexible, self-contained, modular, cross-platform, open-source, interoperable, secure, transparent, efficient, cost-effective, reliable, safe, easy to use, fast, robust, resilient, effective, affordable, accessible, customizable, user-friendly",
+        "mathematical_context": "The PINN is a mathematical concept that is used in the design of the PIN. It is based on the idea that the number of possible combinations of numbers is proportional to their number. In the case of PINs, the probability of a given combination of two numbers being the same is given by the sum of all possible numbers. This is called the \"random number generator\".\nIn the example shown, a PIN is represented by a number that has a random number between 0 and 1. A"
+      }
+    },
+    {
+      "image": 9,
+      "page": 16,
+      "data": {
+        "image_description": "Figure 9: Left: Effect of p-refinement(left) and h-refinement(right) on FastVPINNs.",
+        "image_caption": "The figure shows the effect of the p/refine/h-reinforcement ratio on the Fast VPINN. The p value is the number of times the h value of a p is applied to the fast VPN, and the H value represents the amount of time that the P value has to be applied. In the case of fastVPNs, the value for h is used to represent the time required to apply the f-value to a fast P. For example, if",
+        "key_insights": "The p/refine ratio is a measure of the number of times a protein is added to the protein chain. The p value is the ratio of protein to substrate. It is calculated by multiplying the p values by the total number (in this case, the Protein Protein Index) of each protein. This ratio can be used to calculate the amount of time that a given protein needs to be added. For example, if you add 10% of a single protein, you would need to add 5",
+        "mathematical_context": "The Fast VPINN is a fast, high-performance, low-cost, and highly scalable, non-linear, multi-threaded, parallel-processed quantum computer. It is based on the quantum computing paradigm of quantum mechanics. The Fast P-Refinement (FPU) is an efficient, scalable and scalable quantum processor. FastP- Refinement is used to compute the Fast Quantum Computing (FPQC) algorithm. In this paper, we will discuss the FPU"
+      }
+    },
+    {
+      "image": 10,
+      "page": 17,
+      "data": {
+        "image_description": "Figure 10: (a) Variation of computational time with the number of quadrature (residual) points, plotted against the median time taken per epoch; (b) Comparison of computational time between hp-VPINNs and FastVPINNs for varying numbers of elements.",
+        "image_caption": "The figure shows the time of the first epoch of a FastPVPinN. The time is shown as a percentage of epochs taken. (c) The number and type of points in the caption are shown in red. Note that the data are not necessarily the same as the original data. This is because the epoch is not always the exact same. For example, the following data is taken from the Fast PVPinsN: \"The first time the PPMINN was generated,",
+        "key_insights": "The number and complexity of the computational times are shown in Figure 10. The number is the sum of all the time-dependent factors, and the complexity is determined by the total number (the number that is not a factor). The complexity can be calculated by dividing the factor by its number. For example, the average computational complexity for a single element is 1.5 \u00d7 10\u22126. This is a very large number, but it is very close to the mean. In the case of a",
+        "mathematical_context": "The mathematical context of the Figure 10 figure is a simple one: the time of a single point in the graph is taken as the interval between the points. The time is then divided by the total number (the number that is in a given interval) and the average time (that is, the mean time). The average is used to calculate the probability of finding a point. For example, if the point is found in 1.5 seconds, then the chance of discovering a new point of interest"
+      }
+    },
+    {
+      "image": 11,
+      "page": 18,
+      "data": {
+        "image_description": "Figure 11: (a) Comparing MAE for PINNs and FastVPINNs over different frequencies. (b) time taken for PINNs and FastVPINNs to reach an MAE of 5 \u00d7 10 -2 for different frequencies.",
+        "image_caption": "The figure shows the time required for a PINN to achieve a MAe of 10 \u00d7 100 -1 for each frequency. The time needed for FastPVPINS is shown in the red line. Note that the MAes of the two fastVPins are not equal. In the case of PINNS, the first PINn is the fastest, while the second PINns are the slowest. This is because the PINs of both fastPVINS and PINVPNS are different. For",
+        "key_insights": "The following key findings are presented: 1) PINN and PINVPINS are not the same frequency. 2) The frequency of PINNS is different from PINPINS. 3) FastPVPins are more common than PINNPINS and are less common. 4) In the case of the PINPNs, the frequency is higher than the time of their activation. 5) There is no difference in the number of times PINns are activated. 6) A PINn is more likely",
+        "mathematical_context": "The following is a brief overview of the various mathematical and theoretical contexts for the PINN and PINVPINS. The following are examples of mathematical contexts that are not necessarily applicable to PINn and/or PINvpINS:"
+      }
+    },
+    {
+      "image": 12,
+      "page": 19,
+      "data": {
+        "image_description": "Figure 12: (a) Exact Solution obtained using FEM. (b) Predicted solution-FastVPINNs (c) Pointwise absolute error.",
+        "image_caption": "The figure shows the predicted solution for a given solution. The dashed line represents the solution that is predicted. Note that the prediction is not necessarily the same as the actual solution, but rather the result of the algorithm. For example, the first solution is the correct solution and the second is a different solution from the one that was predicted, so the predictions are not the exact same. In this case, we can use the following algorithm to predict the final solution:\n\n\nThe algorithm is based on the",
+        "key_insights": "The Fermi-Fermilab experiment is a very interesting experiment. It is the first time that a single particle has been detected in a large sample of matter. The F-mass of the particle is about 1.5 times that of a standard particle. This is not a surprise, as the F+ mass of an electron is 1,000 times greater than that in the standard particles. However, the experiment has a number of important implications. First, it shows that the particles",
+        "mathematical_context": "The mathematical context of the Fermi-Higgs boson is a complex and complex problem. The Figgs particle is an extremely complex particle, and it is not easy to understand how it interacts with other particles. It is also difficult to explain how the particle interacts. In this paper, we will use the following mathematical framework to solve the problem: the equation of F(x) = F_x + F_{x} = f(y) + f_y = (x"
+      }
+    },
+    {
+      "image": 13,
+      "page": 20,
+      "data": {
+        "image_description": "Figure 13: Schematics of VPINNs for space dependent inverse parameter modelling.",
+        "image_caption": "The figure shows the effect of the VPID on the number of particles in the sample. The number is the sum of all the particles that are in a sample and the total number. This is a simple and straightforward way to calculate the particle number, but it is not the only way. In fact, it can be used to estimate the size of a particle. For example, if the average particle size is 1, then the mean particle diameter is 2. If the median particle length is 3,",
+        "key_insights": "The first key insight is that the VPINS model is not a simple model of the quantum field. It is a complex model that is based on the assumption that a quantum state is always present in the space-dependent inverse of a given quantum particle. The second key observation is the fact that VPins are not just a model for the field of quantum gravity. They are also a very important part of our understanding of how quantum mechanics works. In fact, the first part is so important that it",
+        "mathematical_context": "The following is a brief overview of the theoretical context of this figure. The figure is based on the work of John D. Dutton, who has been a leading exponent of quantum mechanics for over 30 years. He has also been involved in the development of many other quantum systems, including the quantum computer, the computer with the first quantum wave, and the particle accelerator. His work has led to many applications in physics, chemistry, biology, physics of optics, optics of light, quantum optics and"
+      }
+    },
+    {
+      "image": 14,
+      "page": 21,
+      "data": {
+        "image_description": "Figure 14: Inverse problem on FastVPINNs with constant diffusion parameter.",
+        "image_caption": "The figure shows the diffusion of the Fast VPINN from the first step of a Fast-VPinN. The diffusion is shown in the red line. (A) The Fast and FastVVPN are shown as a function of time. In the case of Fast VVPNs, the time is the same as the speed of light. This is because the fast VPINS is a constant, and the VSPIN is an exponential function. For example, if the VPins are constant",
+        "key_insights": "The following are key findings from this study: (1) The Fast VPINN is a very efficient and efficient solution for the problem of the Fast-Virus-infected virus. (2) It is also very fast. The speed of FastViruses is very high. It can be used to detect and prevent the spread of viruses. In this case, the speed is about 10 times faster than the virus itself. This is because the fast VPINSN can detect the presence",
+        "mathematical_context": "The following is a brief overview of the problem. The problem is solved by a simple linear equation. It is not a linear solution, but rather a solution of a problem of finite size. In the following, the solution is given by the equation: (1) (2) = (3) + (4) - (5)\nIn the above equation, we have the same problem as in the previous one. However, in this case, it is different. We have to solve"
+      }
+    },
+    {
+      "image": 15,
+      "page": 22,
+      "data": {
+        "image_description": "Figure 15: (a) Exact solution( u ) obtained from FEM(ParMooN). (b) Predicted SolutionFastVPINNs. (c) Absolute error: FEM vs FastVPINNs solution. (d) Exact solution diffusion parameter( \u03f5 actual ). (e) Predicted diffusion parameter by FastVPINNs( \u03f5 predicted ) (f) Absolute error: \u03f5 actual vs \u03f5 predicted .",
+        "image_caption": "The figure shows the results of the Fermi-M\u00f6ller experiment. The results are shown in the following table.\nThe figure is a simplified version of Figure 15. It shows that the solution of a given particle is not a simple solution, but a complex one. In the case of particles with a large number of electrons, the particle has a very large diffusion coefficient. This is because the diffusion of an electron is very small. However, in a particle with many electrons it is possible",
+        "key_insights": "The Fermi-Morton model is a good model for estimating the diffusion of a large number of particles. It is also a very good approximation to the F-type model. The Fem-P-model is an excellent model to estimate the diffraction of large particles in a vacuum.\nFermilab's FMR model has been used to calculate the mass of the particles and to predict the speed of their diffusion. This model was developed by FEMS and is based",
+        "mathematical_context": "The figure below shows the theoretical context of the Fermi-Hochberg equation. The equation is a simple equation with a fixed number of possible solutions. It is not a perfect solution, but it is close enough to be considered a good approximation.\nFermilab's F-class is based on the equation: f(x) = f x + f y = x - y . The F class is defined as the number between the two sides of a line. In the"
+      }
+    },
+    {
+      "image": 16,
+      "page": 23,
+      "data": {
+        "image_description": "Figure 16: Comparative analysis of the median training time per epoch for different hyperparameters: (a) Number of test functions ( N test ) vs Number of quadrature points ( N quad) with ( N elem =1), (b) Number of Elements ( N elem ) vs Number of test functions ( N test ) with quadrature points fixed at 10x10 ( N quad =10*10), (c) Number of elements ( N elem ) vs Number of quadrature points ( N quad ) with fixed number of test functions ( N test =10*10).",
+        "image_caption": "The figure shows the mean training times for each hyperparallel epoch. The hyper-parameter values are the number and number (N test , N epsilon ) of each test function.\nThe figure also shows that the training rate is not affected by the hyperposition of a hypermeter. In the case of hypermeters, the rate of training is increased by a factor of 10. This is because the maximum training interval is the same for all hypermeters. However, in the",
+        "key_insights": "The number and number-of-test functions are used to determine the number, number size, and size of a test function. The number is used as a measure of how many test parameters are required to perform the test.\nIn the case of hyperparallel training, the training data is stored in a single file. In the example above, we have a training dataset of 10,000 test data. We have the following training parameters: N, N-1, 1, 2,",
+        "mathematical_context": "The figure below shows the average training times for each hyperparallel training epoch. The figure shows that the training period is shorter than the epoch of training for the same hyperbaric training interval.\nIn the first figure, the number and number-of-test functions are shown. In the second figure the quadrate points are displayed. This is because the hypermeter is a hypermetric hypercalibration. It is possible to train a single hypermeter for a given epoch,"
+      }
+    },
+    {
+      "image": 17,
+      "page": 23,
+      "data": {
+        "image_description": "Figure 16: Comparative analysis of the median training time per epoch for different hyperparameters: (a) Number of test functions ( N test ) vs Number of quadrature points ( N quad) with ( N elem =1), (b) Number of Elements ( N elem ) vs Number of test functions ( N test ) with quadrature points fixed at 10x10 ( N quad =10*10), (c) Number of elements ( N elem ) vs Number of quadrature points ( N quad ) with fixed number of test functions ( N test =10*10).",
+        "image_caption": "The figure shows the mean training times for each hyperparallel epoch. The hyper-parameter values are the number and number (N test , N epsilon ) of each test function.\nThe figure also shows that the training rate is not affected by the hyperposition of a hypermeter. In the case of hypermeters, the rate of training is increased by a factor of 10. This is because the maximum training interval is the same for all hypermeters. However, in the",
+        "key_insights": "The number and number-of-test functions are used to determine the number, number size, and size of a test function. The number is used as a measure of how many test parameters are required to perform the test.\nIn the case of hyperparallel training, the training data is stored in a single file. In the example above, we have a training dataset of 10,000 test data. We have the following training parameters: N, N-1, 1, 2,",
+        "mathematical_context": "The figure below shows the average training times for each hyperparallel training epoch. The figure shows that the training period is shorter than the epoch of training for the same hyperbaric training interval.\nIn the first figure, the number and number-of-test functions are shown. In the second figure the quadrate points are displayed. This is because the hypermeter is a hypermetric hypercalibration. It is possible to train a single hypermeter for a given epoch,"
+      }
+    },
+    {
+      "image": 18,
+      "page": 23,
+      "data": {
+        "image_description": "Figure 16: Comparative analysis of the median training time per epoch for different hyperparameters: (a) Number of test functions ( N test ) vs Number of quadrature points ( N quad) with ( N elem =1), (b) Number of Elements ( N elem ) vs Number of test functions ( N test ) with quadrature points fixed at 10x10 ( N quad =10*10), (c) Number of elements ( N elem ) vs Number of quadrature points ( N quad ) with fixed number of test functions ( N test =10*10).",
+        "image_caption": "The figure shows the mean training times for each hyperparallel epoch. The hyper-parameter values are the number and number (N test , N epsilon ) of each test function.\nThe figure also shows that the training rate is not affected by the hyperposition of a hypermeter. In the case of hypermeters, the rate of training is increased by a factor of 10. This is because the maximum training interval is the same for all hypermeters. However, in the",
+        "key_insights": "The number and number-of-test functions are used to determine the number, number size, and size of a test function. The number is used as a measure of how many test parameters are required to perform the test.\nIn the case of hyperparallel training, the training data is stored in a single file. In the example above, we have a training dataset of 10,000 test data. We have the following training parameters: N, N-1, 1, 2,",
+        "mathematical_context": "The figure below shows the average training times for each hyperparallel training epoch. The figure shows that the training period is shorter than the epoch of training for the same hyperbaric training interval.\nIn the first figure, the number and number-of-test functions are shown. In the second figure the quadrate points are displayed. This is because the hypermeter is a hypermetric hypercalibration. It is possible to train a single hypermeter for a given epoch,"
+      }
+    },
+    {
+      "image": 19,
+      "page": 29,
+      "data": {
+        "image_description": "Figure 17: Effect of h-refinement on the accuracy of solving the two-dimensional Poisson equation. The first, second, and third columns are the domain decomposition, FastVPINNs solution, and pointwise test error, respectively. From top to bottom: N elem = 1, N elem = 16 and N elem = 64. For each element, we use 80 \u00d7 80 quadrature points and 5 test functions in each direction.",
+        "image_caption": "The figure shows the results of the Fast VPINN solution. (The first column shows a simplified version of this solution.)\nThe second column, which shows an example of a Pointer-based solution for a polynomial, shows that the solution is correct. In the first row, the poymeter is the point of interest, while the second row shows how the Pointers are solved. We can see that this is a very simple solution with a few tricks. First, it is",
+        "key_insights": "The first column shows the number of points in the polynomial equation, which is the sum of the points of all the elements in a poymeter. This is a simple way to calculate the mean of a given polemma. In the second column, the average of these points is used to determine the correct polema for the given element. We use the same method for solving a Polynomials problem, but we do not use a fixed poolem. Instead,",
+        "mathematical_context": "The following is a brief overview of the mathematics of H-Refinement. It is based on a number of papers and is not intended to be a complete explanation of all the concepts. However, it is an overview that will help you understand the basic concepts of this topic. In this section, I will discuss the various mathematical concepts that are used in Hrefine. I also will explain the different types of solutions that can be used to solve the equation, the properties of each solution and the"
+      }
+    },
+    {
+      "image": 20,
+      "page": 30,
+      "data": {
+        "image_description": "Figure 18: Effect of p-refinement on the accuracy of solution of two-dimensional Poisson's equation on 1 element. The first and second columns are the FastVPINNs solution and point-wise test error, respectively. From top to bottom: N test = 5 \u00d7 5, N test = 10 \u00d7 10, N test = 15 \u00d7 15 and N test = 20 \u00d7 20. The element has 80 \u00d7 80 total quadrature points.",
+        "image_caption": "The figure shows the results of the Pointer's equations for a single-element solution. In the first column, the solution is calculated as a function of time. For the second column the result is computed as the time of first occurrence of a point. This is the same as for Pointers. To calculate the correct solution, we use the following formula: (1 + (2 + 2) + 1) / (3 + 3) = (5 + 5) * (6 + 6",
+        "key_insights": "The first column shows the number of points in the solution. This is the total number that the polynomial can be solved. In the second column, the Polynomials are used to calculate the correct solution for the first element of the equation. For example, if the answer is 1, then the problem is solved by the same poymeter. If the answers are 2, 3, 4, 5 and 6, it is not possible to solve the equations. Therefore, a solution",
+        "mathematical_context": "The following is a brief description of the mathematics of polynomial equations. It is based on a number of papers by the same authors. In this paper, we will use the term \"p-reference\" to refer to a set of mathematical concepts that are used to describe the poymeter of a polemical equation. We will also use a term for the \"probability\" of solving the equation, which is defined as the probability that the solution will be correct. This is"
+      }
+    },
+    {
+      "image": 21,
+      "page": 31,
+      "data": {
+        "image_description": "Figure 19: Comparision of time taken for prediction by FEM and PINNs for varying number of quadrature points.",
+        "image_caption": "The figure shows the time of prediction for each quadrant of the model. The time is shown as a percentage of a quadrate. For example, the quadration time for a given quad is 1.5 seconds. This is the same as the prediction time given for an average quad. In the case of an FSM, this is 2.4 seconds, and in the FMR, it is 3.6 seconds (see Figure 20).\nThe time shown in Figure 19 is taken from",
+        "key_insights": "The Fem and PinNs are based on the same data set, but the Fems are different. The FEm is based upon the data from a single point in time, and the PinN is a combination of the two. In the case of a PINN, the time is taken from when the PIN is first used, to when it is used again. This is the difference between the three FMs. For example, a FM is only used once per day, whereas a",
+        "mathematical_context": "The mathematical context of the prediction is not the same as the theoretical context. The mathematical background of prediction can be determined by the following: (1) the number and location of points in the quadrant of a given quadrate, (2) a number that is known to be the most accurate, and (3) an estimate of how many points are in a quadrum. (4) The number, location, or location coordinates of each point in each quadrotor. This is a"
+      }
+    }
+  ],
+  "tables": [
+    "./output/paper/tables/table_1.txt"
+  ]
+}
